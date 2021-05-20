@@ -19,7 +19,6 @@ public class ElementDataEditor : Editor
     SerializedProperty boilingPointProp = null;
     SerializedProperty densityProp = null;
     SerializedProperty yearDiscoveredProp = null;
-
     #endregion
 
     #region Unity Defaults
@@ -47,10 +46,11 @@ public class ElementDataEditor : Editor
     // Update is called once per frame
     public override void OnInspectorGUI()
     {
+        var prefabSrc = (Element) target;
         #region Style
         GUIStyle textAreaStyle = new GUIStyle(EditorStyles.textArea)
         {
-            fontSize = 12, fixedHeight = 15, alignment = TextAnchor.MiddleLeft
+            fontSize = 12, fixedHeight = 17, alignment = TextAnchor.MiddleLeft
         };
         #endregion
         GUILayout.Label("Elements", EditorStyles.miniLabel);
@@ -68,6 +68,9 @@ public class ElementDataEditor : Editor
         boilingPointProp.doubleValue = EditorGUILayout.DoubleField("Boiling Point", boilingPointProp.doubleValue, textAreaStyle); GUILayout.FlexibleSpace();
         densityProp.doubleValue = EditorGUILayout.DoubleField("Density", densityProp.doubleValue, textAreaStyle); GUILayout.FlexibleSpace();
         yearDiscoveredProp.stringValue = EditorGUILayout.TextField("Year Discovery", yearDiscoveredProp.stringValue, textAreaStyle); GUILayout.FlexibleSpace();
+        prefabSrc.Prefabs = (GameObject)EditorGUILayout.ObjectField("Prefab", prefabSrc.Prefabs, typeof(GameObject), false); GUILayout.FlexibleSpace();
+
+        serializedObject.ApplyModifiedProperties();
     }
     #endregion
 }

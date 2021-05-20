@@ -49,5 +49,11 @@ public class Element : ScriptableObject
     public double Density { get { return _density; } }
 
     [SerializeField] private string _yearDiscovered;
-    public double YearDiscovered { get { return YearDiscovered; } }
+    public string YearDiscovered { get { return _yearDiscovered; } }
+
+    [SerializeField] private GameObject _prefabs;
+    public GameObject Prefabs {
+        set { _prefabs = value; }
+        get { return _prefabs; } 
+    }
 }
