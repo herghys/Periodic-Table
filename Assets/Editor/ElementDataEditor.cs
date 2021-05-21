@@ -25,7 +25,6 @@ public class ElementDataEditor : Editor
     // Start is called before the first frame update
     void OnEnable()
     {
-        #region Fetch Props
         elementNumProp          = serializedObject.FindProperty("_elementNum");
         elementNameProp         = serializedObject.FindProperty("_elementName");
         elementTypeProp         = serializedObject.FindProperty("_elementType");
@@ -40,10 +39,8 @@ public class ElementDataEditor : Editor
         boilingPointProp        = serializedObject.FindProperty("_boilingPoint");
         densityProp             = serializedObject.FindProperty("_density");
         yearDiscoveredProp      = serializedObject.FindProperty("_yearDiscovered");
-        #endregion
     }
 
-    // Update is called once per frame
     public override void OnInspectorGUI()
     {
         var prefabSrc = (Element) target;
