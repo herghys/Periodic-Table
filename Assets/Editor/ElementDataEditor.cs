@@ -7,6 +7,7 @@ public class ElementDataEditor : Editor
     #region Variables
     SerializedProperty elementNumProp = null;
     SerializedProperty elementNameProp = null;
+    SerializedProperty elementSymbolProp = null;
     SerializedProperty atomicMassProp = null;
     SerializedProperty elementTypeProp = null;
     SerializedProperty electronConfigprop = null;
@@ -27,6 +28,7 @@ public class ElementDataEditor : Editor
     {
         elementNumProp          = serializedObject.FindProperty("_elementNum");
         elementNameProp         = serializedObject.FindProperty("_elementName");
+        elementSymbolProp       = serializedObject.FindProperty("_elementSymbol");
         elementTypeProp         = serializedObject.FindProperty("_elementType");
         atomicMassProp          = serializedObject.FindProperty("_atomicMass");
         electronConfigprop      = serializedObject.FindProperty("_electronConfig");
@@ -53,6 +55,7 @@ public class ElementDataEditor : Editor
         GUILayout.Label("Elements", EditorStyles.miniLabel);
         elementNumProp.intValue = EditorGUILayout.IntField("Element Number", elementNumProp.intValue, textAreaStyle); GUILayout.FlexibleSpace();
         elementNameProp.stringValue = EditorGUILayout.TextField("Element Name", elementNameProp.stringValue, textAreaStyle); GUILayout.FlexibleSpace();
+        elementSymbolProp.stringValue = EditorGUILayout.TextField("Element Symbol", elementSymbolProp.stringValue, textAreaStyle); GUILayout.FlexibleSpace();
         EditorGUILayout.PropertyField(elementTypeProp, new GUIContent("Element Type", "Specify this element type")); GUILayout.FlexibleSpace();
         atomicMassProp.doubleValue = EditorGUILayout.DoubleField("Atomic Mass", atomicMassProp.doubleValue, textAreaStyle); GUILayout.FlexibleSpace();
         electronConfigprop.stringValue = EditorGUILayout.TextField("Electron Config", electronConfigprop.stringValue, textAreaStyle); GUILayout.FlexibleSpace();

@@ -15,6 +15,9 @@ public class Element : ScriptableObject
     [SerializeField] private string _elementName;
     public string ElementName { get { return _elementName; } }
 
+    [SerializeField] private string _elementSymbol;
+    public string ElementSymbol { get { return _elementSymbol; } }
+
     [SerializeField] ElementType _elementType = ElementType.Nonmetal;
     public ElementType GetElementType { get { return _elementType; } }
 
