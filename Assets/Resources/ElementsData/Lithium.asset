@@ -17,14 +17,14 @@ MonoBehaviour:
   _elementSymbol: Li
   _elementType: 2
   _atomicMass: 7
-  _electronConfig: 
-  _oxydationState: 
-  _electronegativity: 0
-  _atomicRadius: 0
-  _ionizationEnergy: 0
-  _electronAffinity: 0
-  _meltingPoint: 0
-  _boilingPoint: 0
-  _density: 0
-  _yearDiscovered: 
+  _electronConfig: '[He]2s<sup>1'
+  _oxydationState: +1
+  _electronegativity: 0.98
+  _atomicRadius: 182
+  _ionizationEnergy: 5.392
+  _electronAffinity: 0.618
+  _meltingPoint: 453.65
+  _boilingPoint: 1615
+  _density: 0.534
+  _yearDiscovered: 1817
   _prefabs: {fileID: 0}

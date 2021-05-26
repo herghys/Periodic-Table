@@ -17,14 +17,14 @@ MonoBehaviour:
   _elementSymbol: Na
   _elementType: 2
   _atomicMass: 22.9897693
-  _electronConfig: 
-  _oxydationState: 
-  _electronegativity: 0
-  _atomicRadius: 0
-  _ionizationEnergy: 0
-  _electronAffinity: 0
-  _meltingPoint: 0
-  _boilingPoint: 0
-  _density: 0
-  _yearDiscovered: 
+  _electronConfig: '[Ne]3s<sup>1'
+  _oxydationState: +1
+  _electronegativity: 0.93
+  _atomicRadius: 227
+  _ionizationEnergy: 5.139
+  _electronAffinity: 0.548
+  _meltingPoint: 370.95
+  _boilingPoint: 1156
+  _density: 0.97
+  _yearDiscovered: 1807
   _prefabs: {fileID: 0}
