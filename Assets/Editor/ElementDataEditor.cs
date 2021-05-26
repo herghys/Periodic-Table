@@ -49,7 +49,7 @@ public class ElementDataEditor : Editor
         #region Style
         GUIStyle textAreaStyle = new GUIStyle(EditorStyles.textArea)
         {
-            fontSize = 12, fixedHeight = 17, alignment = TextAnchor.MiddleLeft
+            fontSize = 12, fixedHeight = 20, alignment = TextAnchor.MiddleLeft
         };
         #endregion
         GUILayout.Label("Elements", EditorStyles.miniLabel);
