@@ -1,14 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "GameUtility", menuName = "Game Utility")]
 public class GameUtility : ScriptableObject
 {
-    public delegate void ElementDescriptionCallback(Element element);
-    public ElementDescriptionCallback UpdateWayang = null;
+    public delegate void ElementDescriptionCallback(Element element, Color color, string elementType);
+    public ElementDescriptionCallback UpdateElement = null;
 
-    public delegate void UpdateContextUICallback(bool update);
+    public delegate void UpdateContextUICallback(bool state);
     public UpdateContextUICallback UpdateContextUI;
 
     private Dictionary<string, Element> elementData  = new Dictionary<string, Element>();

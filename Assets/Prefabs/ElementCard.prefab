@@ -415,6 +415,7 @@ GameObject:
   - component: {fileID: 2271191468468046297}
   - component: {fileID: 2271191468468046300}
   - component: {fileID: 2271191468468046299}
+  - component: {fileID: 6261221627352556997}
   m_Layer: 5
   m_Name: ElementCard
   m_TagString: Untagged
@@ -431,7 +432,7 @@ RectTransform:
   m_GameObject: {fileID: 2271191468468046295}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.97, y: 0.97, z: 0.97}
   m_Children:
   - {fileID: 2271191467750897190}
   - {fileID: 2271191467116807904}
@@ -465,15 +466,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Material: {fileID: 2100000, guid: 6deae265461b34a4da97cfaa05af5d2a, type: 2}
+  m_Color: {r: 1, g: 0.5240722, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -544,7 +545,23 @@ MonoBehaviour:
   textAtomSymbol: {fileID: 2271191467116807905}
   textAtomName: {fileID: 2271191466550290921}
   textAtomMass: {fileID: 2271191468542315172}
+  mButton: {fileID: 0}
+  mImage: {fileID: 0}
   gameUtility: {fileID: 11400000, guid: 6fdf5f0253e8d474c8b486c20d711428, type: 2}
+--- !u!114 &6261221627352556997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2271191468468046295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adb30198aa32dd140b5750692dd48104, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 6deae265461b34a4da97cfaa05af5d2a, type: 2}
+  radius: 20
 --- !u!1 &2271191468542315170
 GameObject:
   m_ObjectHideFlags: 0

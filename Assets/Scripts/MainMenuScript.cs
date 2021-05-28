@@ -20,9 +20,6 @@ public class MainMenuScript : MonoBehaviour
         {
             gu.ElementData.Add(item.name, item);
         }
-
-        Debug.Log(gu.ElementData.Count);
-        Debug.Log(gu.ElementData["Hydrogen"].AtomicMass);
     }
 
     public void LoadScene(string sceneName)

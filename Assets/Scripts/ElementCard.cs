@@ -7,6 +7,7 @@ using UnityEngine.UI;
 using TMPro;
 
 [RequireComponent (typeof(Button))]
+[RequireComponent (typeof(Image))]
 public class ElementCard : MonoBehaviour
 {
     #region Variables
@@ -18,19 +19,26 @@ public class ElementCard : MonoBehaviour
 
     [SerializeField]
     private Button mButton;
+    [SerializeField]
+    private Image mImage;
 
     private string fallbackAtomName = "Hydrogen";
     private Element element;
 
     [SerializeField] GameUtility gameUtility;
+
+    string hexColor, elementType;
+    Color newCol;
     #endregion
 
     #region Unity Defaults
     private void Awake()
     {
         mButton = GetComponent<Button>();
+        mImage = GetComponent<Image>();
 
-        if (string.IsNullOrEmpty(atomName)) atomName = fallbackAtomName;
+        //if (string.IsNullOrEmpty(atomName)) atomName = fallbackAtomName;
+        atomName = gameObject.name;
         if (!gameUtility.ElementData.ContainsKey(atomName))
             atomName = fallbackAtomName;
     }
@@ -40,9 +48,63 @@ public class ElementCard : MonoBehaviour
         SetUI(gameUtility.ElementData[atomName]);
         element = gameUtility.ElementData[atomName];
 
+
+        ChangeColor(element.GetElementType);
         SetButtonEvent();
     }
     #endregion
+
+    private void ChangeColor(ElementType type)
+    {  
+        switch (type)
+        {
+            case ElementType.Nonmetal:
+                hexColor = "#FFC107";
+                elementType = "Non Metal";
+                break;
+            case ElementType.NobleGas:
+                hexColor = "#FF9800";
+                elementType = "Noble Gas";
+                break;
+            case ElementType.AlkaliMetal:
+                hexColor = "#EF5350";
+                elementType = "Alkali Metal";
+                break;
+            case ElementType.AlkalineEarth:
+                hexColor = "#9C27B0";
+                elementType = "Alkaline Earth Metal";
+                break;
+            case ElementType.Metalloid:
+                hexColor = "#4CAF50";
+                elementType = "Metalloid";
+                break;
+            case ElementType.PostTransMetal:
+                hexColor = "#8BC34A";
+                elementType = "Post-Transition Metal";
+                break;
+            case ElementType.Halogen:
+                hexColor = "#FF5722";
+                elementType = "Halogen";
+                break;
+            case ElementType.TransMetal:
+                hexColor = "#795548";
+                elementType = "Transition Metal";
+                break;
+            case ElementType.Lanthanide:
+                hexColor = "#B0BEC5";
+                elementType = "Lanthanide";
+                break;
+            case ElementType.Actinide:
+                hexColor = "#B0BEC5";
+                elementType = "Actinide";
+                break;
+            default:
+                hexColor = "";
+                break;
+        }
+        ColorUtility.TryParseHtmlString(hexColor, out newCol);
+        mImage.color = newCol;
+    }
 
     private void SetButtonEvent()
     {
@@ -59,6 +121,7 @@ public class ElementCard : MonoBehaviour
 
     private void OnclickEvent()
     {
-        gameUtility.UpdateWayang?.Invoke(element);
+        gameUtility.UpdateElement?.Invoke(element, newCol, elementType);
+        gameUtility.UpdateContextUI?.Invoke(true);
     }
 }
