@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum ElementType
+{
+    Nonmetal, NobleGas, AlkaliMetal, AlkalineEarth, Metalloid,
+    PostTransMetal, Halogen, TransMetal, Lanthanide, Actinide
+}
 [CreateAssetMenu(fileName = "ElementData", menuName = "Periodic Element")]
 public class Element : ScriptableObject
 {
-    public enum ElementType { Nonmetal, NobleGas, AlkaliMetal, AlkalineEarth, Metalloid,
-        PostTransMetal, Halogen, TransMetal, Lanthanide, Actinide}
-
 
     [SerializeField] private int _elementNum;
     public int ElementNum { get { return _elementNum; } }
@@ -17,6 +19,9 @@ public class Element : ScriptableObject
 
     [SerializeField] private string _elementSymbol;
     public string ElementSymbol { get { return _elementSymbol; } }
+
+    [SerializeField] private string _elementState;
+    public string ElementState { get { return _elementState; } }
 
     [SerializeField] ElementType _elementType = ElementType.Nonmetal;
     public ElementType GetElementType { get { return _elementType; } }

@@ -15,16 +15,17 @@ MonoBehaviour:
   _elementNum: 55
   _elementName: Cesium
   _elementSymbol: Cs
+  _elementState: Solid
   _elementType: 2
-  _atomicMass: 22.9897693
-  _electronConfig: 
-  _oxydationState: 
-  _electronegativity: 0
-  _atomicRadius: 0
-  _ionizationEnergy: 0
-  _electronAffinity: 0
-  _meltingPoint: 0
-  _boilingPoint: 0
-  _density: 0
-  _yearDiscovered: 
+  _atomicMass: 132.905452
+  _electronConfig: '[Xe]6s<sup>1'
+  _oxydationState: +1
+  _electronegativity: 0.79
+  _atomicRadius: 343
+  _ionizationEnergy: 3.894
+  _electronAffinity: 0.472
+  _meltingPoint: 301.59
+  _boilingPoint: 944
+  _density: 1.93
+  _yearDiscovered: 1860
   _prefabs: {fileID: 0}

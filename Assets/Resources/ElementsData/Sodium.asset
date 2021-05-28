@@ -15,6 +15,7 @@ MonoBehaviour:
   _elementNum: 11
   _elementName: Sodium
   _elementSymbol: Na
+  _elementState: Solid
   _elementType: 2
   _atomicMass: 22.9897693
   _electronConfig: '[Ne]3s<sup>1'

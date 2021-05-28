@@ -8,6 +8,7 @@ public class ElementDataEditor : Editor
     SerializedProperty elementNumProp = null;
     SerializedProperty elementNameProp = null;
     SerializedProperty elementSymbolProp = null;
+    SerializedProperty elementStateProp = null;
     SerializedProperty atomicMassProp = null;
     SerializedProperty elementTypeProp = null;
     SerializedProperty electronConfigprop = null;
@@ -29,6 +30,7 @@ public class ElementDataEditor : Editor
         elementNumProp          = serializedObject.FindProperty("_elementNum");
         elementNameProp         = serializedObject.FindProperty("_elementName");
         elementSymbolProp       = serializedObject.FindProperty("_elementSymbol");
+        elementStateProp        = serializedObject.FindProperty("_elementState");
         elementTypeProp         = serializedObject.FindProperty("_elementType");
         atomicMassProp          = serializedObject.FindProperty("_atomicMass");
         electronConfigprop      = serializedObject.FindProperty("_electronConfig");
@@ -47,27 +49,38 @@ public class ElementDataEditor : Editor
     {
         var prefabSrc = (Element) target;
         #region Style
-        GUIStyle textAreaStyle = new GUIStyle(EditorStyles.textArea)
+        GUIStyle textFieldStyle = new GUIStyle(EditorStyles.textField)
         {
             fontSize = 12, fixedHeight = 20, alignment = TextAnchor.MiddleLeft
         };
+
+        GUIStyle textAreaStyle = new GUIStyle(EditorStyles.textField)
+        {
+            fontSize = 12,
+            fixedHeight = 60,
+            stretchHeight = true,
+            wordWrap= true
+        };
         #endregion
-        GUILayout.Label("Elements", EditorStyles.miniLabel);
-        elementNumProp.intValue = EditorGUILayout.IntField("Element Number", elementNumProp.intValue, textAreaStyle); GUILayout.FlexibleSpace();
-        elementNameProp.stringValue = EditorGUILayout.TextField("Element Name", elementNameProp.stringValue, textAreaStyle); GUILayout.FlexibleSpace();
-        elementSymbolProp.stringValue = EditorGUILayout.TextField("Element Symbol", elementSymbolProp.stringValue, textAreaStyle); GUILayout.FlexibleSpace();
+        elementNumProp.intValue = EditorGUILayout.IntField("Element Number", elementNumProp.intValue, textFieldStyle); GUILayout.FlexibleSpace();
+        elementNameProp.stringValue = EditorGUILayout.TextField("Element Name", elementNameProp.stringValue, textFieldStyle); GUILayout.FlexibleSpace();
+        elementSymbolProp.stringValue = EditorGUILayout.TextField("Element Symbol", elementSymbolProp.stringValue, textFieldStyle); GUILayout.FlexibleSpace();
+        elementStateProp.stringValue = EditorGUILayout.TextField("Element State", elementStateProp.stringValue, textFieldStyle); GUILayout.FlexibleSpace();
         EditorGUILayout.PropertyField(elementTypeProp, new GUIContent("Element Type", "Specify this element type")); GUILayout.FlexibleSpace();
-        atomicMassProp.doubleValue = EditorGUILayout.DoubleField("Atomic Mass", atomicMassProp.doubleValue, textAreaStyle); GUILayout.FlexibleSpace();
-        electronConfigprop.stringValue = EditorGUILayout.TextField("Electron Config", electronConfigprop.stringValue, textAreaStyle); GUILayout.FlexibleSpace();
-        oxydationStateProp.stringValue = EditorGUILayout.TextField("Oxydation State", oxydationStateProp.stringValue, textAreaStyle); GUILayout.FlexibleSpace();
-        electronegativityProp.doubleValue = EditorGUILayout.DoubleField("Electronegativity", electronegativityProp.doubleValue, textAreaStyle); GUILayout.FlexibleSpace();
-        atomicRadProp.doubleValue = EditorGUILayout.DoubleField("Atomic Radius", atomicRadProp.doubleValue, textAreaStyle); GUILayout.FlexibleSpace();
-        ionizationEnergyProp.doubleValue = EditorGUILayout.DoubleField("Ionization Energy", ionizationEnergyProp.doubleValue, textAreaStyle); GUILayout.FlexibleSpace();
-        electronAffinityProp.doubleValue = EditorGUILayout.DoubleField("Electron Affinity", electronAffinityProp.doubleValue, textAreaStyle); GUILayout.FlexibleSpace();
-        meltingPointProp.doubleValue = EditorGUILayout.DoubleField("Melting Point", meltingPointProp.doubleValue, textAreaStyle); GUILayout.FlexibleSpace();
-        boilingPointProp.doubleValue = EditorGUILayout.DoubleField("Boiling Point", boilingPointProp.doubleValue, textAreaStyle); GUILayout.FlexibleSpace();
-        densityProp.doubleValue = EditorGUILayout.DoubleField("Density", densityProp.doubleValue, textAreaStyle); GUILayout.FlexibleSpace();
-        yearDiscoveredProp.stringValue = EditorGUILayout.TextField("Year Discovery", yearDiscoveredProp.stringValue, textAreaStyle); GUILayout.FlexibleSpace();
+        atomicMassProp.doubleValue = EditorGUILayout.DoubleField("Atomic Mass", atomicMassProp.doubleValue, textFieldStyle); GUILayout.FlexibleSpace();
+
+        EditorGUILayout.LabelField("Electron Config");
+        electronConfigprop.stringValue = EditorGUILayout.TextArea( electronConfigprop.stringValue, textAreaStyle); GUILayout.FlexibleSpace();
+
+        oxydationStateProp.stringValue = EditorGUILayout.TextField("Oxydation State", oxydationStateProp.stringValue, textFieldStyle); GUILayout.FlexibleSpace();
+        electronegativityProp.doubleValue = EditorGUILayout.DoubleField("Electronegativity", electronegativityProp.doubleValue, textFieldStyle); GUILayout.FlexibleSpace();
+        atomicRadProp.doubleValue = EditorGUILayout.DoubleField("Atomic Radius", atomicRadProp.doubleValue, textFieldStyle); GUILayout.FlexibleSpace();
+        ionizationEnergyProp.doubleValue = EditorGUILayout.DoubleField("Ionization Energy", ionizationEnergyProp.doubleValue, textFieldStyle); GUILayout.FlexibleSpace();
+        electronAffinityProp.doubleValue = EditorGUILayout.DoubleField("Electron Affinity", electronAffinityProp.doubleValue, textFieldStyle); GUILayout.FlexibleSpace();
+        meltingPointProp.doubleValue = EditorGUILayout.DoubleField("Melting Point", meltingPointProp.doubleValue, textFieldStyle); GUILayout.FlexibleSpace();
+        boilingPointProp.doubleValue = EditorGUILayout.DoubleField("Boiling Point", boilingPointProp.doubleValue, textFieldStyle); GUILayout.FlexibleSpace();
+        densityProp.doubleValue = EditorGUILayout.DoubleField("Density", densityProp.doubleValue, textFieldStyle); GUILayout.FlexibleSpace();
+        yearDiscoveredProp.stringValue = EditorGUILayout.TextField("Year Discovery", yearDiscoveredProp.stringValue, textFieldStyle); GUILayout.FlexibleSpace();
         prefabSrc.Prefabs = (GameObject)EditorGUILayout.ObjectField("Prefab", prefabSrc.Prefabs, typeof(GameObject), false); GUILayout.FlexibleSpace();
 
         serializedObject.ApplyModifiedProperties();

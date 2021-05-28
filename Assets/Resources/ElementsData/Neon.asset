@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef7cd000638259644b00980dccc41bc8, type: 3}
-  m_Name: Francium
+  m_Name: Neon
   m_EditorClassIdentifier: 
-  _elementNum: 87
-  _elementName: Francium
-  _elementSymbol: Fr
-  _elementState: Solid
-  _elementType: 2
-  _atomicMass: 223.01973
-  _electronConfig: '[Rn]7s<sup>1'
-  _oxydationState: +1
-  _electronegativity: 0.7
-  _atomicRadius: 348
-  _ionizationEnergy: 3.9
-  _electronAffinity: 0.47
-  _meltingPoint: 300
-  _boilingPoint: 950
-  _density: 2.48
-  _yearDiscovered: 1939
+  _elementNum: 10
+  _elementName: Neon
+  _elementSymbol: Ne
+  _elementState: Gas
+  _elementType: 1
+  _atomicMass: 20.18
+  _electronConfig: '[He]2s<sup>2</sup>2p<sup>6</sup>'
+  _oxydationState: 0
+  _electronegativity: 0
+  _atomicRadius: 154
+  _ionizationEnergy: 21.565
+  _electronAffinity: 0
+  _meltingPoint: 24.56
+  _boilingPoint: 27.07
+  _density: 0.0008999
+  _yearDiscovered: 1898
   _prefabs: {fileID: 0}

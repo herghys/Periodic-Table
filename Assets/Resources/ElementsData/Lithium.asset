@@ -15,6 +15,7 @@ MonoBehaviour:
   _elementNum: 3
   _elementName: Lithium
   _elementSymbol: Li
+  _elementState: Solid
   _elementType: 2
   _atomicMass: 7
   _electronConfig: '[He]2s<sup>1'

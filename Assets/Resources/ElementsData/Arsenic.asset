@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef7cd000638259644b00980dccc41bc8, type: 3}
-  m_Name: Francium
+  m_Name: Arsenic
   m_EditorClassIdentifier: 
-  _elementNum: 87
-  _elementName: Francium
-  _elementSymbol: Fr
+  _elementNum: 33
+  _elementName: Arsenic
+  _elementSymbol: As
   _elementState: Solid
-  _elementType: 2
-  _atomicMass: 223.01973
-  _electronConfig: '[Rn]7s<sup>1'
-  _oxydationState: +1
-  _electronegativity: 0.7
-  _atomicRadius: 348
-  _ionizationEnergy: 3.9
-  _electronAffinity: 0.47
-  _meltingPoint: 300
-  _boilingPoint: 950
-  _density: 2.48
-  _yearDiscovered: 1939
+  _elementType: 4
+  _atomicMass: 74.92159
+  _electronConfig: '[He]4s<sup>2</sup>3d<sup>10</sup>4p<sup>3</sup>'
+  _oxydationState: +5, +3, -3
+  _electronegativity: 2.18
+  _atomicRadius: 185
+  _ionizationEnergy: 9.815
+  _electronAffinity: 0.81
+  _meltingPoint: 1090
+  _boilingPoint: 887
+  _density: 5.776
+  _yearDiscovered: Ancient
   _prefabs: {fileID: 0}

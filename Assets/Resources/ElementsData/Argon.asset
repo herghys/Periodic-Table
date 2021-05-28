@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef7cd000638259644b00980dccc41bc8, type: 3}
-  m_Name: Francium
+  m_Name: Argon
   m_EditorClassIdentifier: 
-  _elementNum: 87
-  _elementName: Francium
-  _elementSymbol: Fr
-  _elementState: Solid
-  _elementType: 2
-  _atomicMass: 223.01973
-  _electronConfig: '[Rn]7s<sup>1'
-  _oxydationState: +1
-  _electronegativity: 0.7
-  _atomicRadius: 348
-  _ionizationEnergy: 3.9
-  _electronAffinity: 0.47
-  _meltingPoint: 300
-  _boilingPoint: 950
-  _density: 2.48
-  _yearDiscovered: 1939
+  _elementNum: 18
+  _elementName: Argon
+  _elementSymbol: Ar
+  _elementState: Gas
+  _elementType: 1
+  _atomicMass: 39.9
+  _electronConfig: '[Ne]3s<sup>2</sup>3p<sup>6</sup>'
+  _oxydationState: 0
+  _electronegativity: 0
+  _atomicRadius: 188
+  _ionizationEnergy: 15.76
+  _electronAffinity: 0
+  _meltingPoint: 83.8
+  _boilingPoint: 87.3
+  _density: 0.0017837
+  _yearDiscovered: 1894
   _prefabs: {fileID: 0}

@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef7cd000638259644b00980dccc41bc8, type: 3}
-  m_Name: Hydrogen
+  m_Name: Chlorine
   m_EditorClassIdentifier: 
-  _elementNum: 1
-  _elementName: Hydrogen
-  _elementSymbol: H
+  _elementNum: 17
+  _elementName: Chlorine
+  _elementSymbol: Cl
   _elementState: Gas
-  _elementType: 0
-  _atomicMass: 1.008
-  _electronConfig: 1s<sup>1
-  _oxydationState: +1, -1
-  _electronegativity: 2.2
-  _atomicRadius: 120
-  _ionizationEnergy: 13.598
-  _electronAffinity: 0.754
-  _meltingPoint: 13.81
-  _boilingPoint: 20.28
-  _density: 0.00008988
-  _yearDiscovered: 1766
+  _elementType: 6
+  _atomicMass: 35.45
+  _electronConfig: '[Ne]3s<sup>2</sup>3p<sup>5</sup>'
+  _oxydationState: +7, +5, +1, -1
+  _electronegativity: 3.16
+  _atomicRadius: 175
+  _ionizationEnergy: 12.968
+  _electronAffinity: 3.617
+  _meltingPoint: 171.65
+  _boilingPoint: 239.11
+  _density: 0.003214
+  _yearDiscovered: 1774
   _prefabs: {fileID: 0}

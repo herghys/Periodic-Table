@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef7cd000638259644b00980dccc41bc8, type: 3}
-  m_Name: Hydrogen
+  m_Name: Nitrogen
   m_EditorClassIdentifier: 
-  _elementNum: 1
-  _elementName: Hydrogen
-  _elementSymbol: H
+  _elementNum: 7
+  _elementName: Nitrogen
+  _elementSymbol: N
   _elementState: Gas
   _elementType: 0
-  _atomicMass: 1.008
-  _electronConfig: 1s<sup>1
-  _oxydationState: +1, -1
-  _electronegativity: 2.2
-  _atomicRadius: 120
-  _ionizationEnergy: 13.598
-  _electronAffinity: 0.754
-  _meltingPoint: 13.81
-  _boilingPoint: 20.28
-  _density: 0.00008988
-  _yearDiscovered: 1766
+  _atomicMass: 14.007
+  _electronConfig: '[He]2s<sup>2</sup>2p<sup>3</sup>'
+  _oxydationState: '+5, +4, +3, +2, +1, -1, -2, -3 '
+  _electronegativity: 3.04
+  _atomicRadius: 155
+  _ionizationEnergy: 14.534
+  _electronAffinity: 0
+  _meltingPoint: 63.15
+  _boilingPoint: 77.36
+  _density: 0.0012506
+  _yearDiscovered: 1772
   _prefabs: {fileID: 0}

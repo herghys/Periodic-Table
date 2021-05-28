@@ -15,16 +15,17 @@ MonoBehaviour:
   _elementNum: 19
   _elementName: Potassium
   _elementSymbol: K
+  _elementState: Solid
   _elementType: 2
   _atomicMass: 39.098
-  _electronConfig: 
-  _oxydationState: 
-  _electronegativity: 0
-  _atomicRadius: 0
-  _ionizationEnergy: 0
-  _electronAffinity: 0
-  _meltingPoint: 0
-  _boilingPoint: 0
-  _density: 0
-  _yearDiscovered: 
+  _electronConfig: '[Ar]4s<sup>1'
+  _oxydationState: +1
+  _electronegativity: 0.82
+  _atomicRadius: 275
+  _ionizationEnergy: 4.341
+  _electronAffinity: 0.501
+  _meltingPoint: 336.53
+  _boilingPoint: 1032
+  _density: 0.89
+  _yearDiscovered: 1807
   _prefabs: {fileID: 0}

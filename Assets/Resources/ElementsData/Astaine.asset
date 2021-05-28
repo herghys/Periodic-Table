@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef7cd000638259644b00980dccc41bc8, type: 3}
-  m_Name: Francium
+  m_Name: Astaine
   m_EditorClassIdentifier: 
-  _elementNum: 87
-  _elementName: Francium
-  _elementSymbol: Fr
+  _elementNum: 85
+  _elementName: Astaine
+  _elementSymbol: At
   _elementState: Solid
-  _elementType: 2
-  _atomicMass: 223.01973
-  _electronConfig: '[Rn]7s<sup>1'
-  _oxydationState: +1
-  _electronegativity: 0.7
-  _atomicRadius: 348
-  _ionizationEnergy: 3.9
-  _electronAffinity: 0.47
-  _meltingPoint: 300
-  _boilingPoint: 950
-  _density: 2.48
-  _yearDiscovered: 1939
+  _elementType: 6
+  _atomicMass: 209.98715
+  _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>10</sup>6p<sup>5</sup>'
+  _oxydationState: 7, 5, 3, 1, -1
+  _electronegativity: 2.2
+  _atomicRadius: 202
+  _ionizationEnergy: 9.5
+  _electronAffinity: 2.8
+  _meltingPoint: 575
+  _boilingPoint: 0
+  _density: 7
+  _yearDiscovered: 1940
   _prefabs: {fileID: 0}

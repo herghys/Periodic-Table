@@ -10,22 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef7cd000638259644b00980dccc41bc8, type: 3}
-  m_Name: Francium
+  m_Name: Germanium
   m_EditorClassIdentifier: 
-  _elementNum: 87
-  _elementName: Francium
-  _elementSymbol: Fr
+  _elementNum: 32
+  _elementName: Germanium
+  _elementSymbol: Ge
   _elementState: Solid
-  _elementType: 2
-  _atomicMass: 223.01973
-  _electronConfig: '[Rn]7s<sup>1'
-  _oxydationState: +1
-  _electronegativity: 0.7
-  _atomicRadius: 348
-  _ionizationEnergy: 3.9
-  _electronAffinity: 0.47
-  _meltingPoint: 300
-  _boilingPoint: 950
-  _density: 2.48
-  _yearDiscovered: 1939
+  _elementType: 4
+  _atomicMass: 72.63
+  _electronConfig: '[Ar]4s<sup>2</sup>3d<sup>10</sup>4p<sup>2</sup>'
+  _oxydationState: +4, +2
+  _electronegativity: 2.01
+  _atomicRadius: 211
+  _ionizationEnergy: 7.9
+  _electronAffinity: 1.35
+  _meltingPoint: 1211.4
+  _boilingPoint: 3106
+  _density: 5.323
+  _yearDiscovered: 1886
   _prefabs: {fileID: 0}
