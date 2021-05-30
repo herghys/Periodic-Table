@@ -99,9 +99,9 @@ public class PeriodicUIManager : MonoBehaviour
     private void UpdateElement(Element element, Color color, string elementType)
     {
         //Desc Header
-        header.AtomMass.text = element.AtomicMass.ToString() + " u";
+        header.AtomMass.text = element.AtomicMass + " u";
         header.AtomName.text = element.ElementName;
-        header.AtomNum.text = element.ElementNum.ToString();
+        header.AtomNum.text = element.ElementNum;
         header.AtomSymbol.text = element.ElementSymbol;
         header.HeaderImage.color = color;
 
@@ -111,13 +111,13 @@ public class PeriodicUIManager : MonoBehaviour
         description.AtomMass.text = element.AtomicMass.ToString() + " u";
         description.ElectronConfig.text = element.ElectronConfig;
         description.OxidationStates.text = element.OxydationState;
-        description.Electronegativity.text = (element.Electronegativiy == 0) ? empty : element.Electronegativiy.ToString();
-        description.AtomRadius.text = element.AtomicRadius.ToString() + "pm";
-        description.IonEnergy.text = (element.IonizationEnergy == 0) ? empty : element.IonizationEnergy.ToString() + " eV";
-        description.ElectronAffinity.text = (element.ElectronAffinity == 0) ? empty : element.ElectronAffinity.ToString() + " eV";
-        description.MeltingPoint.text = (element.MeltingPoint == 0) ? empty : element.MeltingPoint.ToString() + " K";
-        description.BoilingPoint.text = (element.BoilingPoint == 0) ? empty : element.MeltingPoint.ToString() + " K";
-        description.Density.text = (element.Density == 0) ? empty : element.Density.ToString() + " g/cm<sup>3</sup>";
+        description.Electronegativity.text = element.Electronegativiy;
+        description.AtomRadius.text = element.AtomicRadius + " pm";
+        description.IonEnergy.text = element.IonizationEnergy + " eV";
+        description.ElectronAffinity.text = element.ElectronAffinity + " eV";
+        description.MeltingPoint.text = element.MeltingPoint + " K";
+        description.BoilingPoint.text = element.MeltingPoint + " K";
+        description.Density.text = element.Density + " g/cm<sup>3</sup>";
         description.Year.text = element.YearDiscovered;
     }
     private void UpdateDescUI(bool state)

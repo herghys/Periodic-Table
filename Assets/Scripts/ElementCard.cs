@@ -59,11 +59,11 @@ public class ElementCard : MonoBehaviour
         switch (type)
         {
             case ElementType.Nonmetal:
-                hexColor = "#FFC107";
+                hexColor = "#FF7043"; //Deep Orange 400
                 elementType = "Non Metal";
                 break;
             case ElementType.NobleGas:
-                hexColor = "#FF9800";
+                hexColor = "#D84315"; //Deep orange 800
                 elementType = "Noble Gas";
                 break;
             case ElementType.AlkaliMetal:

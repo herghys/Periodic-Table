@@ -47,7 +47,7 @@ public class ElementDataEditor : Editor
 
     public override void OnInspectorGUI()
     {
-        var prefabSrc = (Element) target;
+        //var prefabSrc = (Element) target;
         #region Style
         GUIStyle textFieldStyle = new GUIStyle(EditorStyles.textField)
         {
@@ -67,7 +67,7 @@ public class ElementDataEditor : Editor
         elementSymbolProp.stringValue = EditorGUILayout.TextField("Element Symbol", elementSymbolProp.stringValue, textFieldStyle); GUILayout.FlexibleSpace();
         elementStateProp.stringValue = EditorGUILayout.TextField("Element State", elementStateProp.stringValue, textFieldStyle); GUILayout.FlexibleSpace();
         EditorGUILayout.PropertyField(elementTypeProp, new GUIContent("Element Type", "Specify this element type")); GUILayout.FlexibleSpace();
-        atomicMassProp.doubleValue = EditorGUILayout.DoubleField("Atomic Mass", atomicMassProp.doubleValue, textFieldStyle); GUILayout.FlexibleSpace();
+        atomicMassProp.floatValue = EditorGUILayout.FloatField("Atomic Mass", atomicMassProp.floatValue, textFieldStyle); GUILayout.FlexibleSpace();
 
         EditorGUILayout.LabelField("Electron Config");
         electronConfigprop.stringValue = EditorGUILayout.TextArea( electronConfigprop.stringValue, textAreaStyle); GUILayout.FlexibleSpace();
@@ -81,7 +81,7 @@ public class ElementDataEditor : Editor
         boilingPointProp.doubleValue = EditorGUILayout.DoubleField("Boiling Point", boilingPointProp.doubleValue, textFieldStyle); GUILayout.FlexibleSpace();
         densityProp.doubleValue = EditorGUILayout.DoubleField("Density", densityProp.doubleValue, textFieldStyle); GUILayout.FlexibleSpace();
         yearDiscoveredProp.stringValue = EditorGUILayout.TextField("Year Discovery", yearDiscoveredProp.stringValue, textFieldStyle); GUILayout.FlexibleSpace();
-        prefabSrc.Prefabs = (GameObject)EditorGUILayout.ObjectField("Prefab", prefabSrc.Prefabs, typeof(GameObject), false); GUILayout.FlexibleSpace();
+        //prefabSrc.Prefabs = (GameObject)EditorGUILayout.ObjectField("Prefab", prefabSrc.Prefabs, typeof(GameObject), false); GUILayout.FlexibleSpace();
 
         serializedObject.ApplyModifiedProperties();
     }
