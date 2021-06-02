@@ -67,8 +67,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Hydrogen
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 744d57aa6e3588144bc2b31373468644, type: 2}
+  m_sharedMaterial: {fileID: -5733147357695559279, guid: 744d57aa6e3588144bc2b31373468644, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -201,8 +201,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: H
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1613e0c2535db1c4cbbd48b8964c25ed, type: 2}
+  m_sharedMaterial: {fileID: 6653588484063863069, guid: 1613e0c2535db1c4cbbd48b8964c25ed, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35.95
+  m_fontSize: 34.3
   m_fontSizeBase: 23.77
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -335,8 +335,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 744d57aa6e3588144bc2b31373468644, type: 2}
+  m_sharedMaterial: {fileID: -5733147357695559279, guid: 744d57aa6e3588144bc2b31373468644, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -360,7 +360,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13.85
+  m_fontSize: 13.2
   m_fontSizeBase: 23.77
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -545,6 +545,7 @@ MonoBehaviour:
   textAtomSymbol: {fileID: 2271191467116807905}
   textAtomName: {fileID: 2271191466550290921}
   textAtomMass: {fileID: 2271191468542315172}
+  type: 0
   mButton: {fileID: 0}
   mImage: {fileID: 0}
   gameUtility: {fileID: 11400000, guid: 6fdf5f0253e8d474c8b486c20d711428, type: 2}
@@ -629,8 +630,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 1.008
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 744d57aa6e3588144bc2b31373468644, type: 2}
+  m_sharedMaterial: {fileID: -5733147357695559279, guid: 744d57aa6e3588144bc2b31373468644, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
