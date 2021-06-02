@@ -17,7 +17,7 @@ MonoBehaviour:
   _elementSymbol: Pb
   _elementState: Solid
   _elementType: 5
-  _atomicMass: 	2.1e2
+  _atomicMass: 	2.1e02
   _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>10</sup>6p<sup>2</sup>'
   _oxydationState: +4, +2
   _electronegativity: 2.33

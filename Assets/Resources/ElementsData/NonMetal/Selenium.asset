@@ -10,21 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef7cd000638259644b00980dccc41bc8, type: 3}
-  m_Name: Silicon
+  m_Name: Selenium
   m_EditorClassIdentifier: 
-  _elementNum: 14
-  _elementName: Silicon
-  _elementSymbol: Si
+  _elementNum: 34
+  _elementName: Selenium
+  _elementSymbol: Se
   _elementState: Solid
-  _elementType: 4
-  _atomicMass: 28.085
-  _electronConfig: '[Ne]3s<sup>2</sup>3p<sup>2</sup>'
+  _elementType: 0
+  _atomicMass: 0
+  _electronConfig: '[Ar]4s<sup>2</sup>3d<sup>10</sup>4p<sup>4</sup>'
   _oxydationState: +4, +2, -4
-  _electronegativity: 1.9
-  _atomicRadius: 210
-  _ionizationEnergy: 8.152
-  _electronAffinity: 1.385
-  _meltingPoint: 1687
-  _boilingPoint: 3538
-  _density: 2.3296
-  _yearDiscovered: 1854
+  _electronegativity: 2.55
+  _atomicRadius: 170
+  _ionizationEnergy: 11.26
+  _electronAffinity: 1.263
+  _meltingPoint: 3823
+  _boilingPoint: 4098
+  _density: 2.267
+  _yearDiscovered: Ancient

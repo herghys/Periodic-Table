@@ -10,21 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef7cd000638259644b00980dccc41bc8, type: 3}
-  m_Name: Silicon
+  m_Name: Sodium
   m_EditorClassIdentifier: 
-  _elementNum: 14
-  _elementName: Silicon
-  _elementSymbol: Si
+  _elementNum: 11
+  _elementName: Sodium
+  _elementSymbol: Na
   _elementState: Solid
-  _elementType: 4
-  _atomicMass: 28.085
-  _electronConfig: '[Ne]3s<sup>2</sup>3p<sup>2</sup>'
-  _oxydationState: +4, +2, -4
-  _electronegativity: 1.9
-  _atomicRadius: 210
-  _ionizationEnergy: 8.152
-  _electronAffinity: 1.385
-  _meltingPoint: 1687
-  _boilingPoint: 3538
-  _density: 2.3296
-  _yearDiscovered: 1854
+  _elementType: 2
+  _atomicMass: 0
+  _electronConfig: '[Ne]3s<sup>1'
+  _oxydationState: +1
+  _electronegativity: 0.93
+  _atomicRadius: 227
+  _ionizationEnergy: 5.139
+  _electronAffinity: 0.548
+  _meltingPoint: 370.95
+  _boilingPoint: 1156
+  _density: 0.97
+  _yearDiscovered: 1807

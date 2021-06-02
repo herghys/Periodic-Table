@@ -10,21 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef7cd000638259644b00980dccc41bc8, type: 3}
-  m_Name: Silicon
+  m_Name: Sulfur
   m_EditorClassIdentifier: 
-  _elementNum: 14
-  _elementName: Silicon
-  _elementSymbol: Si
+  _elementNum: 16
+  _elementName: Sulfur
+  _elementSymbol: S
   _elementState: Solid
-  _elementType: 4
-  _atomicMass: 28.085
-  _electronConfig: '[Ne]3s<sup>2</sup>3p<sup>2</sup>'
-  _oxydationState: +4, +2, -4
-  _electronegativity: 1.9
-  _atomicRadius: 210
-  _ionizationEnergy: 8.152
-  _electronAffinity: 1.385
-  _meltingPoint: 1687
-  _boilingPoint: 3538
-  _density: 2.3296
-  _yearDiscovered: 1854
+  _elementType: 0
+  _atomicMass: 0
+  _electronConfig: '[Ne]3s<sup>2</sup>3p<sup>4</sup>'
+  _oxydationState: +6, +4, -2
+  _electronegativity: 2.58
+  _atomicRadius: 180
+  _ionizationEnergy: 10.36
+  _electronAffinity: 2.077
+  _meltingPoint: 388.36
+  _boilingPoint: 717.75
+  _density: 2.067
+  _yearDiscovered: Ancient

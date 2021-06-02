@@ -10,21 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef7cd000638259644b00980dccc41bc8, type: 3}
-  m_Name: Silicon
+  m_Name: Actinium
   m_EditorClassIdentifier: 
-  _elementNum: 14
-  _elementName: Silicon
-  _elementSymbol: Si
+  _elementNum: 89
+  _elementName: Actinium
+  _elementSymbol: Ac
   _elementState: Solid
-  _elementType: 4
-  _atomicMass: 28.085
-  _electronConfig: '[Ne]3s<sup>2</sup>3p<sup>2</sup>'
-  _oxydationState: +4, +2, -4
-  _electronegativity: 1.9
-  _atomicRadius: 210
-  _ionizationEnergy: 8.152
-  _electronAffinity: 1.385
-  _meltingPoint: 1687
-  _boilingPoint: 3538
-  _density: 2.3296
-  _yearDiscovered: 1854
+  _elementType: 9
+  _atomicMass: 227.02776
+  _electronConfig: '[Rn]7s<sup>2</sup>6d<sup>1</sup>'
+  _oxydationState: +3
+  _electronegativity: 1.1
+  _atomicRadius: 260
+  _ionizationEnergy: 5.17
+  _electronAffinity: 0
+  _meltingPoint: 1324
+  _boilingPoint: 3471
+  _density: 10.07
+  _yearDiscovered: 1899

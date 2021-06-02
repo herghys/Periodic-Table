@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef7cd000638259644b00980dccc41bc8, type: 3}
+  m_Name: Xenon
+  m_EditorClassIdentifier: 
+  _elementNum: 54
+  _elementName: Xenon
+  _elementSymbol: Xe
+  _elementState: Gas
+  _elementType: 1
+  _atomicMass: 0
+  _electronConfig: '[Kr]5s<sup>2</sup>4d<sup>10</sup>5p<sup>6</sup>'
+  _oxydationState: 0
+  _electronegativity: 2.6
+  _atomicRadius: 216
+  _ionizationEnergy: 12.13
+  _electronAffinity: 0
+  _meltingPoint: 161.36
+  _boilingPoint: 165.03
+  _density: 0.005887
+  _yearDiscovered: 1898

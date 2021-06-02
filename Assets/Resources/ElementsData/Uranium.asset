@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef7cd000638259644b00980dccc41bc8, type: 3}
+  m_Name: Uranium
+  m_EditorClassIdentifier: 
+  _elementNum: 92
+  _elementName: Uranium
+  _elementSymbol: U
+  _elementState: Solid
+  _elementType: 9
+  _atomicMass: 238.0289
+  _electronConfig: '[Rn]7s<sup>2</sup>5f<sup>3</sup>6d<sup>1</sup>'
+  _oxydationState: +6, +5, +4, +3
+  _electronegativity: 1.38
+  _atomicRadius: 240
+  _ionizationEnergy: 6.194
+  _electronAffinity: 0
+  _meltingPoint: 1408
+  _boilingPoint: 4404
+  _density: 18.95
+  _yearDiscovered: 1789

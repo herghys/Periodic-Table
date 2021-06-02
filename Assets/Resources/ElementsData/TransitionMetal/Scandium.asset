@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef7cd000638259644b00980dccc41bc8, type: 3}
-  m_Name: Livermonium
+  m_Name: Scandium
   m_EditorClassIdentifier: 
-  _elementNum: 116
-  _elementName: Livermonium
-  _elementSymbol: Lv
-  _elementState: Solid (Expected)
-  _elementType: 5
-  _atomicMass: 293.205
-  _electronConfig: '[Rn]7s<sup>2</sup>7p<sup>4</sup>5f<sup>14</sup>6d<sup>10</sup>'
-  _oxydationState: +4, +2, -2
+  _elementNum: 0
+  _elementName: 
+  _elementSymbol: 
+  _elementState: 
+  _elementType: 0
+  _atomicMass: 123
+  _electronConfig: 
+  _oxydationState: 
   _electronegativity: 0
   _atomicRadius: 0
   _ionizationEnergy: 0
@@ -27,4 +27,4 @@ MonoBehaviour:
   _meltingPoint: 0
   _boilingPoint: 0
   _density: 0
-  _yearDiscovered: 2000
+  _yearDiscovered: 
