@@ -17,12 +17,14 @@ public class ElementCard : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textAtomName;
     [SerializeField] private TextMeshProUGUI textAtomMass;
 
+    [SerializeField] ElementType type;
+
     [SerializeField]
     private Button mButton;
     [SerializeField]
     private Image mImage;
 
-    private string fallbackAtomName = "Hydrogen";
+    private string fallbackAtomName = "Element 1";
     private Element element;
 
     [SerializeField] GameUtility gameUtility;
@@ -48,12 +50,14 @@ public class ElementCard : MonoBehaviour
         SetUI(gameUtility.ElementData[atomName]);
         element = gameUtility.ElementData[atomName];
 
+        type = element.GetElementType;
 
         ChangeColor(element.GetElementType);
         SetButtonEvent();
     }
     #endregion
 
+    #region UI Changer
     private void ChangeColor(ElementType type)
     {  
         switch (type)
@@ -95,7 +99,7 @@ public class ElementCard : MonoBehaviour
                 elementType = "Lanthanide";
                 break;
             case ElementType.Actinide:
-                hexColor = "#B0BEC5";
+                hexColor = "#455A64"; //Blue Grey 800
                 elementType = "Actinide";
                 break;
             default:
@@ -106,10 +110,6 @@ public class ElementCard : MonoBehaviour
         mImage.color = newCol;
     }
 
-    private void SetButtonEvent()
-    {
-        mButton.onClick.AddListener(OnclickEvent);
-    }
 
     private void SetUI(Element element)
     {
@@ -118,10 +118,19 @@ public class ElementCard : MonoBehaviour
         textAtomName.text = element.name;
         textAtomMass.text = element.AtomicMass.ToString();
     }
+    #endregion
+
+    #region Events
+    private void SetButtonEvent()
+    {
+        mButton.onClick.AddListener(OnclickEvent);
+    }
+
 
     private void OnclickEvent()
     {
         gameUtility.UpdateElement?.Invoke(element, newCol, elementType);
         gameUtility.UpdateContextUI?.Invoke(true);
     }
+    #endregion
 }

@@ -67,12 +67,15 @@ public struct DescriptionUIElements
 
 public class PeriodicUIManager : MonoBehaviour
 {
+    #region Variables
     [SerializeField] GameUtility events;
     [SerializeField] CanvasGroup group, cardGroup;
     [SerializeField] DescriptionHeaderUIEleements header;
     [SerializeField] DescriptionUIElements description;
 
-    private string empty = "- / Unknown";
+    #endregion
+
+    #region Unity Defaults
     private void OnEnable()
     {
         events.UpdateElement += UpdateElement;
@@ -85,17 +88,14 @@ public class PeriodicUIManager : MonoBehaviour
         events.UpdateContextUI -= UpdateDescUI;
     }
 
-    void Start()
+    private void Start()
     {
-        
+        decimal a = 259.10101m;
+        Debug.Log(a);
     }
+    #endregion
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    #region Event Subs
     private void UpdateElement(Element element, Color color, string elementType)
     {
         //Desc Header
@@ -125,7 +125,9 @@ public class PeriodicUIManager : MonoBehaviour
         if (state) UpdateDescUI(1, state);
         else UpdateDescUI(0, state);
     }
+    #endregion
 
+    #region methods
     private void UpdateDescUI(int i, bool state)
     {
         group.alpha = i;
@@ -140,4 +142,5 @@ public class PeriodicUIManager : MonoBehaviour
     {
         events.UpdateContextUI?.Invoke(false);
     }
+    #endregion
 }
