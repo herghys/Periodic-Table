@@ -17,8 +17,8 @@ MonoBehaviour:
   _elementSymbol: Sr
   _elementState: Solid
   _elementType: 3
-  _atomicMass: 0
-  _electronConfig: '[Kr]5s<sup>2'
+  _atomicMass: 87.6
+  _electronConfig: '[Kr]5s<sup>2</sup>'
   _oxydationState: +2
   _electronegativity: 0.95
   _atomicRadius: 249

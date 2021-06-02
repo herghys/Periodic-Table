@@ -18,7 +18,7 @@ MonoBehaviour:
   _elementState: Gas
   _elementType: 0
   _atomicMass: 1.008
-  _electronConfig: 1s<sup>1
+  _electronConfig: 1s<sup>1</sup>
   _oxydationState: +1, -1
   _electronegativity: 2.2
   _atomicRadius: 120
@@ -28,4 +28,3 @@ MonoBehaviour:
   _boilingPoint: 20.28
   _density: 0.00008988
   _yearDiscovered: 1766
-  _prefabs: {fileID: 0}

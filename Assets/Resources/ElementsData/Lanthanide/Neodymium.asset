@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef7cd000638259644b00980dccc41bc8, type: 3}
   m_Name: Neodymium
   m_EditorClassIdentifier: 
-  _elementNum: 0
-  _elementName: 
-  _elementSymbol: 
-  _elementState: 
+  _elementNum: 60
+  _elementName: Neodymium
+  _elementSymbol: Nd
+  _elementState: Solid
   _elementType: 8
-  _atomicMass: 0
-  _electronConfig: 
-  _oxydationState: 
-  _electronegativity: 0
-  _atomicRadius: 0
-  _ionizationEnergy: 0
+  _atomicMass: 144.24
+  _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>4</sup>'
+  _oxydationState: +3
+  _electronegativity: 1.14
+  _atomicRadius: 229
+  _ionizationEnergy: 5.525
   _electronAffinity: 0
-  _meltingPoint: 0
-  _boilingPoint: 0
-  _density: 0
-  _yearDiscovered: 
+  _meltingPoint: 1294
+  _boilingPoint: 3347
+  _density: 7.01
+  _yearDiscovered: 1885

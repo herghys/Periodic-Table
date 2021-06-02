@@ -17,8 +17,8 @@ MonoBehaviour:
   _elementSymbol: Cs
   _elementState: Solid
   _elementType: 2
-  _atomicMass: 132.905452
-  _electronConfig: '[Xe]6s<sup>1'
+  _atomicMass: 132.90546
+  _electronConfig: '[Xe]6s<sup>1</sup>'
   _oxydationState: +1
   _electronegativity: 0.79
   _atomicRadius: 343
@@ -28,4 +28,3 @@ MonoBehaviour:
   _boilingPoint: 944
   _density: 1.93
   _yearDiscovered: 1860
-  _prefabs: {fileID: 0}

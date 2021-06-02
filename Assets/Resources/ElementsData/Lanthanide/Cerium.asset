@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef7cd000638259644b00980dccc41bc8, type: 3}
   m_Name: Cerium
   m_EditorClassIdentifier: 
-  _elementNum: 0
-  _elementName: 
-  _elementSymbol: 
-  _elementState: 
+  _elementNum: 58
+  _elementName: Cerium
+  _elementSymbol: Ce
+  _elementState: Solid
   _elementType: 8
-  _atomicMass: 0
-  _electronConfig: 
-  _oxydationState: 
-  _electronegativity: 0
-  _atomicRadius: 0
-  _ionizationEnergy: 0
-  _electronAffinity: 0
-  _meltingPoint: 0
-  _boilingPoint: 0
-  _density: 0
-  _yearDiscovered: 
+  _atomicMass: 140.12
+  _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>1</sup>5d1'
+  _oxydationState: +4, +3
+  _electronegativity: 1.12
+  _atomicRadius: 235
+  _ionizationEnergy: 5.539
+  _electronAffinity: 0.5
+  _meltingPoint: 1071
+  _boilingPoint: 3697
+  _density: 6.770
+  _yearDiscovered: 1803

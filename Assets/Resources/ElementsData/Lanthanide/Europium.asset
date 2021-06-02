@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef7cd000638259644b00980dccc41bc8, type: 3}
   m_Name: Europium
   m_EditorClassIdentifier: 
-  _elementNum: 0
-  _elementName: 
-  _elementSymbol: 
-  _elementState: 
+  _elementNum: 63
+  _elementName: Europium
+  _elementSymbol: Eu
+  _elementState: Solid
   _elementType: 8
-  _atomicMass: 0
-  _electronConfig: 
-  _oxydationState: 
+  _atomicMass: 151.96
+  _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>7</sup>'
+  _oxydationState: +3, +2
   _electronegativity: 0
-  _atomicRadius: 0
-  _ionizationEnergy: 0
-  _electronAffinity: 0
-  _meltingPoint: 0
-  _boilingPoint: 0
-  _density: 0
-  _yearDiscovered: 
+  _atomicRadius: 233
+  _ionizationEnergy: 5.670
+  _electronAffinity: 
+  _meltingPoint: 1095
+  _boilingPoint: 1802
+  _density: 5.24
+  _yearDiscovered: 1901

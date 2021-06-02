@@ -18,7 +18,7 @@ MonoBehaviour:
   _elementState: Solid
   _elementType: 2
   _atomicMass: 223.01973
-  _electronConfig: '[Rn]7s<sup>1'
+  _electronConfig: '[Rn]7s<sup>1</sup>'
   _oxydationState: +1
   _electronegativity: 0.7
   _atomicRadius: 348
@@ -28,4 +28,3 @@ MonoBehaviour:
   _boilingPoint: 950
   _density: 2.48
   _yearDiscovered: 1939
-  _prefabs: {fileID: 0}

@@ -17,8 +17,8 @@ MonoBehaviour:
   _elementSymbol: Na
   _elementState: Solid
   _elementType: 2
-  _atomicMass: 0
-  _electronConfig: '[Ne]3s<sup>1'
+  _atomicMass: 22.9897693
+  _electronConfig: '[Ne]3s<sup>1</sup>'
   _oxydationState: +1
   _electronegativity: 0.93
   _atomicRadius: 227

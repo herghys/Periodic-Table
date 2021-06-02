@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Indium
   m_EditorClassIdentifier: 
   _elementNum: 49
-  _elementName: Iridium
+  _elementName: Indium
   _elementSymbol: In
   _elementState: Solid
   _elementType: 5

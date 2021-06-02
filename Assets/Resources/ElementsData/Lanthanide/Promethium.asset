@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef7cd000638259644b00980dccc41bc8, type: 3}
   m_Name: Promethium
   m_EditorClassIdentifier: 
-  _elementNum: 0
-  _elementName: 
-  _elementSymbol: 
-  _elementState: 
+  _elementNum: 61
+  _elementName: Promethium
+  _elementSymbol: Pm
+  _elementState: Solid
   _elementType: 8
-  _atomicMass: 0
-  _electronConfig: 
-  _oxydationState: 
+  _atomicMass: 144.91276
+  _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>5</sup>'
+  _oxydationState: +3
   _electronegativity: 0
-  _atomicRadius: 0
-  _ionizationEnergy: 0
+  _atomicRadius: 236
+  _ionizationEnergy: 5.55
   _electronAffinity: 0
-  _meltingPoint: 0
-  _boilingPoint: 0
-  _density: 0
-  _yearDiscovered: 
+  _meltingPoint: 1315
+  _boilingPoint: 3273
+  _density: 7.26
+  _yearDiscovered: 1945

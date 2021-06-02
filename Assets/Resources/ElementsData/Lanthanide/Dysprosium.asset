@@ -10,21 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef7cd000638259644b00980dccc41bc8, type: 3}
-  m_Name: Lutelium
+  m_Name: Dysprosium
   m_EditorClassIdentifier: 
-  _elementNum: 0
-  _elementName: 
-  _elementSymbol: 
-  _elementState: 
+  _elementNum: 66
+  _elementName: Dysprosium
+  _elementSymbol: Dy
+  _elementState: Solid
   _elementType: 8
-  _atomicMass: 0
-  _electronConfig: 
-  _oxydationState: 
-  _electronegativity: 0
-  _atomicRadius: 0
-  _ionizationEnergy: 0
+  _atomicMass: 162.5
+  _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>10</sup>'
+  _oxydationState: +3
+  _electronegativity: 1.22
+  _atomicRadius: 229
+  _ionizationEnergy: 5.939
   _electronAffinity: 0
-  _meltingPoint: 0
-  _boilingPoint: 0
-  _density: 0
-  _yearDiscovered: 
+  _meltingPoint: 1685
+  _boilingPoint: 2840
+  _density: 8.55
+  _yearDiscovered: 1886

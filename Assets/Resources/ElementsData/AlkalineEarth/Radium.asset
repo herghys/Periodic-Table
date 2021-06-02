@@ -17,8 +17,8 @@ MonoBehaviour:
   _elementSymbol: Ra
   _elementState: Solid
   _elementType: 3
-  _atomicMass: 226.02541
-  _electronConfig: '[Rn]7s<sup>2'
+  _atomicMass: 226.0254
+  _electronConfig: '[Rn]7s<sup>2</sup>'
   _oxydationState: +2
   _electronegativity: 0.9
   _atomicRadius: 283
@@ -28,4 +28,3 @@ MonoBehaviour:
   _boilingPoint: 1413
   _density: 5
   _yearDiscovered: 1898
-  _prefabs: {fileID: 0}

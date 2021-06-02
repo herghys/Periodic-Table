@@ -16,9 +16,9 @@ MonoBehaviour:
   _elementName: 
   _elementSymbol: 
   _elementState: 
-  _elementType: 0
+  _elementType: 7
   _atomicMass: 123
-  _electronConfig: 
+  _electronConfig: ''
   _oxydationState: 
   _electronegativity: 0
   _atomicRadius: 0

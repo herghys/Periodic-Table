@@ -17,14 +17,14 @@ MonoBehaviour:
   _elementSymbol: La
   _elementState: Solid
   _elementType: 8
-  _atomicMass: 0
-  _electronConfig: 
-  _oxydationState: 
-  _electronegativity: 0
-  _atomicRadius: 0
-  _ionizationEnergy: 0
-  _electronAffinity: 0
-  _meltingPoint: 0
-  _boilingPoint: 0
-  _density: 0
-  _yearDiscovered: 
+  _atomicMass: 138.9055
+  _electronConfig: '[Xe]6s<sup>2</sup>5d<sup>1</sup>'
+  _oxydationState: +3
+  _electronegativity: 1.1
+  _atomicRadius: 240
+  _ionizationEnergy: 5.577
+  _electronAffinity: 0.5
+  _meltingPoint: 1191
+  _boilingPoint: 3737
+  _density: 6.15
+  _yearDiscovered: 1839

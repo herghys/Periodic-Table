@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef7cd000638259644b00980dccc41bc8, type: 3}
   m_Name: Scandium
   m_EditorClassIdentifier: 
-  _elementNum: 0
-  _elementName: 
-  _elementSymbol: 
-  _elementState: 
-  _elementType: 0
-  _atomicMass: 123
-  _electronConfig: 
-  _oxydationState: 
-  _electronegativity: 0
-  _atomicRadius: 0
-  _ionizationEnergy: 0
-  _electronAffinity: 0
-  _meltingPoint: 0
-  _boilingPoint: 0
-  _density: 0
-  _yearDiscovered: 
+  _elementNum: 21
+  _elementName: Scandium
+  _elementSymbol: Sc
+  _elementState: Solid
+  _elementType: 7
+  _atomicMass: 44.95591
+  _electronConfig: '[Ar]4s<sup>2</sup>3d<sup>1</sup>'
+  _oxydationState: +3
+  _electronegativity: 1.36
+  _atomicRadius: 211
+  _ionizationEnergy: 6.561
+  _electronAffinity: 0.188
+  _meltingPoint: 1814
+  _boilingPoint: 3109
+  _density: 2.99
+  _yearDiscovered: 1879

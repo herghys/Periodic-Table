@@ -18,7 +18,7 @@ MonoBehaviour:
   _elementState: Solid
   _elementType: 3
   _atomicMass: 24.305
-  _electronConfig: '[Ne]3s<sup>2'
+  _electronConfig: '[Ne]3s<sup>2</sup>'
   _oxydationState: +2
   _electronegativity: 1.31
   _atomicRadius: 173
@@ -28,4 +28,3 @@ MonoBehaviour:
   _boilingPoint: 1363
   _density: 1.74
   _yearDiscovered: 1808
-  _prefabs: {fileID: 0}
