@@ -91,15 +91,15 @@ public class ElementCard : MonoBehaviour
                 elementType = "Halogen";
                 break;
             case ElementType.TransMetal:
-                hexColor = "#795548";
+                hexColor = "#1565C0"; //#1565C0 - Blue 800
                 elementType = "Transition Metal";
                 break;
             case ElementType.Lanthanide:
-                hexColor = "#B0BEC5";
+                hexColor = "#455A64"; //Blue Grey 700
                 elementType = "Lanthanide";
                 break;
             case ElementType.Actinide:
-                hexColor = "#455A64"; //Blue Grey 800
+                hexColor = "#263238"; //Blue Grey 900
                 elementType = "Actinide";
                 break;
             default:

@@ -25,6 +25,13 @@ public struct DescriptionHeaderUIEleements
 [Serializable()]
 public struct DescriptionUIElements
 {
+
+    [SerializeField] TextMeshProUGUI textAtomName;
+    public TextMeshProUGUI AtomName { get { return textAtomName; } }
+
+    [SerializeField] TextMeshProUGUI textAtomNum;
+    public TextMeshProUGUI AtomNum { get { return textAtomNum; } }
+
     [SerializeField] TextMeshProUGUI textAtomState;
     public TextMeshProUGUI AtomState { get { return textAtomState; } }
 
@@ -106,6 +113,8 @@ public class PeriodicUIManager : MonoBehaviour
         header.HeaderImage.color = color;
 
         //Desc Main
+        description.AtomName.text = string.Format("{0} ({1})",element.ElementName, element.ElementSymbol);
+        description.AtomNum.text = element.ElementNum;
         description.AtomState.text = element.ElementState;
         description.ChemBlock.text = elementType;
         description.AtomMass.text = element.AtomicMass.ToString() + " u";
@@ -136,11 +145,6 @@ public class PeriodicUIManager : MonoBehaviour
         cardGroup.alpha = i;
         cardGroup.interactable = state;
         cardGroup.blocksRaycasts = state;
-    }
-
-    public void ButtonCloseCard()
-    {
-        events.UpdateContextUI?.Invoke(false);
     }
     #endregion
 }
