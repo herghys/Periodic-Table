@@ -130,6 +130,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1655520092}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Curium
@@ -679,6 +687,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 708986596}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Arsenic
@@ -785,6 +801,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1069908690}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Germanium
@@ -1125,6 +1149,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1388349174}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Oxygen
@@ -1361,6 +1393,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1074567766}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Cesium
@@ -1471,6 +1511,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 154883356}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Promethium
@@ -1573,6 +1621,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1390787891}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Yttrium
@@ -1868,6 +1924,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1655520092}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Protacinium
@@ -1970,6 +2034,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 947407819}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Argon
@@ -2297,6 +2369,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2123833595}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Nihonium
@@ -2399,6 +2479,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1074567766}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Sodium
@@ -2585,6 +2673,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 708986596}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Phosphorus
@@ -2958,6 +3054,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 708986596}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Nitrogen
@@ -3519,6 +3623,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 947407819}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Oganesson
@@ -3629,6 +3741,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2104006720}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Bromine
@@ -3735,6 +3855,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 947407819}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Krypton
@@ -4200,6 +4328,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 154883356}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Dysprosium
@@ -4540,6 +4676,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2104006720}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Astaine
@@ -5007,6 +5151,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1655520092}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Actinium
@@ -5109,6 +5261,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 154883356}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Cerium
@@ -5449,6 +5609,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1388349174}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Polonium
@@ -5819,6 +5987,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 947407819}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Xenon
@@ -6383,6 +6559,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2123833595}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Aluminum
@@ -6741,6 +6925,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1655520092}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Americium
@@ -6945,6 +7137,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1388349174}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Sulfur
@@ -7226,6 +7426,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 708986596}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Antimony
@@ -7328,6 +7536,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1390787891}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Scandium
@@ -7580,6 +7796,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 154883356}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Lutetium
@@ -7682,6 +7906,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2123833595}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Boron
@@ -8122,6 +8354,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 154883356}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Gadolinium
@@ -8224,6 +8464,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1000599685}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Radium
@@ -8334,6 +8582,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1074567766}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Francium
@@ -8444,6 +8700,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1388349174}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Selenium
@@ -8859,6 +9123,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1069908690}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Flerovium
@@ -8961,6 +9233,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2104006720}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Tennessine
@@ -9067,6 +9347,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 154883356}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Samarium
@@ -9169,6 +9457,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2104006720}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Chlorine
@@ -9513,6 +9809,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 708986596}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Moscovium
@@ -10113,6 +10417,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 154883356}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Terbium
@@ -10215,6 +10527,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1069908690}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Tin
@@ -10367,6 +10687,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1000599685}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Magnesium
@@ -10477,6 +10805,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 947407819}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Radon
@@ -10587,6 +10923,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1655520092}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Thorium
@@ -11234,6 +11578,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1388349174}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Livermonium
@@ -11497,6 +11849,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1000599685}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Calcium
@@ -11607,6 +11967,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1655520092}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Uranium
@@ -11709,6 +12077,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1074567766}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Rubidium
@@ -11969,6 +12345,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1069908690}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Lead
@@ -12146,6 +12530,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1655520092}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Einsteinium
@@ -12486,6 +12878,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1000599685}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Beryllium
@@ -12832,6 +13232,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 947407819}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Neon
@@ -13217,6 +13625,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2123833595}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Thallium
@@ -13367,6 +13783,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1388349174}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Tellurium
@@ -13782,6 +14206,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 708986596}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Bismuth
@@ -14475,6 +14907,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1655520092}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Mendelevium
@@ -14577,6 +15017,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 154883356}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Thulium
@@ -14995,6 +15443,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 154883356}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Neodymium
@@ -15190,6 +15646,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1655520092}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Neptunium
@@ -15292,6 +15756,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1655520092}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Nobelium
@@ -15394,6 +15866,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1655520092}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Berkelium
@@ -15544,6 +16024,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 154883356}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Europium
@@ -15735,6 +16223,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1000599685}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Barium
@@ -16596,6 +17092,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 154883356}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Holmium
@@ -16698,6 +17202,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1069908690}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Silicon
@@ -16800,6 +17312,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1655520092}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Californium
@@ -17100,6 +17620,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1074567766}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Potassium
@@ -17343,7 +17871,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48.7
+  m_fontSize: 48.65
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -17475,6 +18003,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1074567766}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Lithium
@@ -17719,6 +18255,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2123833595}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Gallium
@@ -17932,6 +18476,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1655520092}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Plutonium
@@ -18486,6 +19038,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 154883356}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Erbium
@@ -18809,6 +19369,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 154883356}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Lanthanum
@@ -18986,6 +19554,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2123833595}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Indium
@@ -19088,6 +19664,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1655520092}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Lawrencium
@@ -19458,6 +20042,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2104006720}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Iodine
@@ -19564,6 +20156,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2104006720}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Fluorine
@@ -19670,6 +20270,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 154883356}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Praseodymium
@@ -20040,6 +20648,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 947407819}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Helium
@@ -20373,6 +20989,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1000599685}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Strontium
@@ -20483,6 +21107,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1069908690}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Carbon
@@ -20771,6 +21403,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 154883356}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Ytterbium
@@ -21588,7 +22228,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 54.95
+  m_fontSize: 54.9
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -21645,6 +22285,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1655520092}
     m_Modifications:
+    - target: {fileID: 2271191467116807904, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 2271191467750897190, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000076293945
+      objectReference: {fileID: 0}
     - target: {fileID: 2271191468468046295, guid: 185d41fc83f543a4b86dae1c6abae259, type: 3}
       propertyPath: m_Name
       value: Fermium
