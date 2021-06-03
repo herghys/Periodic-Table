@@ -12,19 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef7cd000638259644b00980dccc41bc8, type: 3}
   m_Name: Iron
   m_EditorClassIdentifier: 
-  _elementNum: 0
-  _elementName: 
-  _elementSymbol: 
-  _elementState: 
-  _elementType: 0
-  _atomicMass: 123
+  _elementNum: 26
+  _elementName: Iron
+  _elementOtherName: Ferrum
+  _elementSymbol: Fe
+  _elementState: Solid
+  _elementType: 7
+  _atomicMass: 55.84
   _electronConfig: 
   _oxydationState: 
   _electronegativity: 0
   _atomicRadius: 0
   _ionizationEnergy: 0
   _electronAffinity: 0
-  _meltingPoint: 0
-  _boilingPoint: 0
-  _density: 0
-  _yearDiscovered: 
+  _meltingPoint: 1811
+  _boilingPoint: 3134
+  _density: 7.874
+  _yearDiscovered: Ancient

@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 27
   _elementName: Cobalt 
-  _elementSymbol: C0
+  _elementSymbol: Co
   _elementState: Solid
   _elementType: 7
   _atomicMass: 58.93319
-  _electronConfig: [Ar]4s<sup>2</sup>3d<sup>7</sup> 
+  _electronConfig: '[Ar]4s<sup>2</sup>3d<sup>7</sup>'
   _oxydationState: +3, +2
   _electronegativity: 1.88
   _atomicRadius: 192

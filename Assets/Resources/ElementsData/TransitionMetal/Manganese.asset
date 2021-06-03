@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef7cd000638259644b00980dccc41bc8, type: 3}
   m_Name: Manganese
   m_EditorClassIdentifier: 
-  _elementNum: 0
-  _elementName: 
-  _elementSymbol: 
-  _elementState: 
-  _elementType: 0
+  _elementNum: 25
+  _elementName: Manganese
+  _elementOtherName: 54.93804
+  _elementSymbol: Mn
+  _elementState: Solid
+  _elementType: 7
   _atomicMass: 123
   _electronConfig: 
   _oxydationState: 
@@ -26,5 +27,5 @@ MonoBehaviour:
   _electronAffinity: 0
   _meltingPoint: 0
   _boilingPoint: 0
-  _density: 0
-  _yearDiscovered: 
+  _density: 7.3
+  _yearDiscovered: 1774
