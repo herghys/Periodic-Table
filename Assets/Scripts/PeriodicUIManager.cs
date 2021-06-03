@@ -100,14 +100,18 @@ public class PeriodicUIManager : MonoBehaviour
     private void UpdateElement(Element element, Color color, string elementType)
     {
         //Desc Header
-        header.AtomMass.text = element.AtomicMass + " u";
+        header.AtomMass.text = element.AtomicMass;
         header.AtomName.text = element.ElementName;
         header.AtomNum.text = element.ElementNum;
         header.AtomSymbol.text = element.ElementSymbol;
         header.HeaderImage.color = color;
 
         //Desc Main
-        description.AtomName.text = string.Format("{0} ({1})",element.ElementName, element.ElementSymbol);
+        if (!string.IsNullOrEmpty(element.ElementOtherName))
+            description.AtomName.text = string.Format("{0} / {1} ({2})", element.ElementName, element.ElementOtherName, element.ElementSymbol);
+        else 
+            description.AtomName.text = string.Format("{0} ({1})", element.ElementName, element.ElementSymbol);
+
         description.AtomNum.text = element.ElementNum;
         description.AtomState.text = element.ElementState;
         description.ChemBlock.text = elementType;

@@ -18,6 +18,13 @@ public class Element : ScriptableObject
     [SerializeField] private string _elementName;
     public string ElementName { get { return _elementName; } }
 
+    [SerializeField] private string _elementOtherName;
+    public string ElementOtherName 
+    { 
+        get {  return _elementOtherName; }
+        set { _elementOtherName = _elementOtherName == string.Empty ? null : value ;}
+    }
+
     [SerializeField] private string _elementSymbol;
     public string ElementSymbol { get { return _elementSymbol; } }
 

@@ -7,6 +7,7 @@ public class ElementDataEditor : Editor
     #region Variables
     SerializedProperty elementNumProp = null;
     SerializedProperty elementNameProp = null;
+    SerializedProperty elementOtherNameProp = null;
     SerializedProperty elementSymbolProp = null;
     SerializedProperty elementStateProp = null;
     SerializedProperty atomicMassProp = null;
@@ -29,6 +30,7 @@ public class ElementDataEditor : Editor
     {
         elementNumProp          = serializedObject.FindProperty("_elementNum");
         elementNameProp         = serializedObject.FindProperty("_elementName");
+        elementOtherNameProp    = serializedObject.FindProperty("_elementOtherName");
         elementSymbolProp       = serializedObject.FindProperty("_elementSymbol");
         elementStateProp        = serializedObject.FindProperty("_elementState");
         elementTypeProp         = serializedObject.FindProperty("_elementType");
@@ -64,6 +66,7 @@ public class ElementDataEditor : Editor
         #endregion
         elementNumProp.intValue = EditorGUILayout.IntField("Element Number", elementNumProp.intValue, textFieldStyle); GUILayout.FlexibleSpace();
         elementNameProp.stringValue = EditorGUILayout.TextField("Element Name", elementNameProp.stringValue, textFieldStyle); GUILayout.FlexibleSpace();
+        elementOtherNameProp.stringValue = EditorGUILayout.TextField("Element Other Name", elementOtherNameProp.stringValue, textFieldStyle); GUILayout.FlexibleSpace();
         elementSymbolProp.stringValue = EditorGUILayout.TextField("Element Symbol", elementSymbolProp.stringValue, textFieldStyle); GUILayout.FlexibleSpace();
         elementStateProp.stringValue = EditorGUILayout.TextField("Element State", elementStateProp.stringValue, textFieldStyle); GUILayout.FlexibleSpace();
         EditorGUILayout.PropertyField(elementTypeProp, new GUIContent("Element Type", "Specify this element type")); GUILayout.FlexibleSpace();
