@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PeriodicManager : MonoBehaviour
+public class PeriodicSceneScript : MonoBehaviour
 {
     [SerializeField] GameUtility events;
 
@@ -19,7 +19,6 @@ public class PeriodicManager : MonoBehaviour
 
     public void LoadScene(string sceneName)
     {
-        Debug.Log(sceneName);
         SceneManager.LoadScene(sceneName);
     }
 }

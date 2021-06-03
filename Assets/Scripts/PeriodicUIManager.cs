@@ -94,12 +94,6 @@ public class PeriodicUIManager : MonoBehaviour
         events.UpdateElement -= UpdateElement;
         events.UpdateContextUI -= UpdateDescUI;
     }
-
-    private void Start()
-    {
-        decimal a = 259.10101m;
-        Debug.Log(a);
-    }
     #endregion
 
     #region Event Subs
