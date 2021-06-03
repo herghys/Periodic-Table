@@ -18,7 +18,7 @@ MonoBehaviour:
   _elementState: Solid
   _elementType: 7
   _atomicMass: 112.41
-  _electronConfig: 	[Kr]5s<sup>2</sup>4d<sup>10</sup> 
+  _electronConfig: 	'[Kr]5s<sup>2</sup>4d<sup>10</sup>'
   _oxydationState: +2
   _electronegativity: 1.69
   _atomicRadius: 158
