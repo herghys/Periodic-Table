@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef7cd000638259644b00980dccc41bc8, type: 3}
   m_Name: Cadmium
   m_EditorClassIdentifier: 
-  _elementNum: 0
-  _elementName: 
-  _elementSymbol: 
-  _elementState: 7
-  _elementType: 0
-  _atomicMass: 123
-  _electronConfig: 
-  _oxydationState: 
-  _electronegativity: 0
-  _atomicRadius: 0
-  _ionizationEnergy: 0
+  _elementNum: 48
+  _elementName: Cadmium
+  _elementSymbol: Cd
+  _elementState: Solid
+  _elementType: 7
+  _atomicMass: 112.41
+  _electronConfig: 	[Kr]5s<sup>2</sup>4d<sup>10</sup> 
+  _oxydationState: +2
+  _electronegativity: 1.69
+  _atomicRadius: 158
+  _ionizationEnergy: 8.994 
   _electronAffinity: 0
-  _meltingPoint: 0
-  _boilingPoint: 0
-  _density: 0
-  _yearDiscovered: 
+  _meltingPoint: 594.22
+  _boilingPoint: 1040
+  _density: 8.69
+  _yearDiscovered: 1817 
