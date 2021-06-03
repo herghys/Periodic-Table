@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef7cd000638259644b00980dccc41bc8, type: 3}
   m_Name: Chromium
   m_EditorClassIdentifier: 
-  _elementNum: 0
-  _elementName: 
-  _elementSymbol: 
-  _elementState: 
-  _elementType: 0
-  _atomicMass: 123
-  _electronConfig: 
-  _oxydationState: 
-  _electronegativity: 0
-  _atomicRadius: 0
-  _ionizationEnergy: 0
-  _electronAffinity: 0
-  _meltingPoint: 0
-  _boilingPoint: 0
-  _density: 0
-  _yearDiscovered: 
+  _elementNum: 24
+  _elementName: Chromium
+  _elementSymbol: Cr
+  _elementState: Solid
+  _elementType: 7
+  _atomicMass: 51.996
+  _electronConfig: [Ar]3d<sip>5</sup>4s<sup>1</sup>
+  _oxydationState: 	+6, +3, +2
+  _electronegativity: 1.66
+  _atomicRadius: 189
+  _ionizationEnergy: 6.767
+  _electronAffinity: 0.666
+  _meltingPoint: 2180
+  _boilingPoint: 2944
+  _density: 7.15
+  _yearDiscovered: 1797
