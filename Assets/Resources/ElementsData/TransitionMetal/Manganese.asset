@@ -18,14 +18,14 @@ MonoBehaviour:
   _elementSymbol: Mn
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 123
-  _electronConfig: 
-  _oxydationState: 
-  _electronegativity: 0
-  _atomicRadius: 0
-  _ionizationEnergy: 0
+  _atomicMass: 54.93804
+  _electronConfig: '[Ar]4s<sup>2</sup>3d<sup>5</sup>'
+  _oxydationState: +7, +4, +3, +2
+  _electronegativity: 1.55
+  _atomicRadius: 197
+  _ionizationEnergy: 7.434
   _electronAffinity: 0
-  _meltingPoint: 0
-  _boilingPoint: 0
+  _meltingPoint: 1519
+  _boilingPoint: 2334
   _density: 7.3
   _yearDiscovered: 1774
