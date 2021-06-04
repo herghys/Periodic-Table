@@ -7,11 +7,6 @@ public class PeriodicManager : MonoBehaviour
 {
     [SerializeField] GameUtility events;
 
-    private void Start()
-    {
-        
-    }
-
     public void ButtonCloseCard()
     {
         events.UpdateContextUI?.Invoke(false);

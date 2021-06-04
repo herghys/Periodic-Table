@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 25
   _elementName: Manganese
-  _elementOtherName: 54.93804
+  _elementOtherName: 
   _elementSymbol: Mn
   _elementState: Solid
   _elementType: 7

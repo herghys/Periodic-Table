@@ -29,6 +29,9 @@ public struct DescriptionUIElements
     [SerializeField] TextMeshProUGUI textAtomName;
     public TextMeshProUGUI AtomName { get { return textAtomName; } }
 
+    [SerializeField] TextMeshProUGUI textSymbol;
+    public TextMeshProUGUI AtomSymbol { get { return textSymbol; } }
+
     [SerializeField] TextMeshProUGUI textAtomNum;
     public TextMeshProUGUI AtomNum { get { return textAtomNum; } }
 
@@ -108,10 +111,11 @@ public class PeriodicUIManager : MonoBehaviour
 
         //Desc Main
         if (!string.IsNullOrEmpty(element.ElementOtherName))
-            description.AtomName.text = string.Format("{0} / {1} ({2})", element.ElementName, element.ElementOtherName, element.ElementSymbol);
-        else 
-            description.AtomName.text = string.Format("{0} ({1})", element.ElementName, element.ElementSymbol);
+            description.AtomName.text = string.Format("{0} / {1}", element.ElementName, element.ElementOtherName);
+        else
+            description.AtomName.text = element.ElementName;
 
+        description.AtomSymbol.text = element.ElementSymbol;
         description.AtomNum.text = element.ElementNum;
         description.AtomState.text = element.ElementState;
         description.ChemBlock.text = elementType;
