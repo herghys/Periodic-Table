@@ -19,13 +19,13 @@ MonoBehaviour:
   _elementState: Solid
   _elementType: 7
   _atomicMass: 107.868
-  _electronConfig: 
-  _oxydationState: 
-  _electronegativity: 0
-  _atomicRadius: 0
-  _ionizationEnergy: 0
-  _electronAffinity: 0
-  _meltingPoint: 0
-  _boilingPoint: 0
+  _electronConfig: '[Kr]5s<sup>1</sup>4d<sup>10</sup>'
+  _oxydationState: +1
+  _electronegativity: 1.93
+  _atomicRadius: 172
+  _ionizationEnergy: 7.576
+  _electronAffinity: 1.302
+  _meltingPoint: 1234.93
+  _boilingPoint: 2435
   _density: 10.501
   _yearDiscovered: Ancient

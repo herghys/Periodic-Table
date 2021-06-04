@@ -18,14 +18,14 @@ MonoBehaviour:
   _elementSymbol: V
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 123
-  _electronConfig: 
-  _oxydationState: 
-  _electronegativity: 0
-  _atomicRadius: 0
-  _ionizationEnergy: 0
-  _electronAffinity: 0
-  _meltingPoint: 0
-  _boilingPoint: 0
-  _density: 0
-  _yearDiscovered: 
+  _atomicMass: 50.941
+  _electronConfig: '[Ar]4s<sup>2</sup>3d<sup>3</sup>'
+  _oxydationState: +5, +4, +3, +2
+  _electronegativity: 1.63
+  _atomicRadius: 179
+  _ionizationEnergy: 6.746
+  _electronAffinity: 0.525
+  _meltingPoint: 2183
+  _boilingPoint: 3680
+  _density: 6.0
+  _yearDiscovered: 1801

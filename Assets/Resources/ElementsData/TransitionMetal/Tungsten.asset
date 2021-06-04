@@ -15,17 +15,17 @@ MonoBehaviour:
   _elementNum: 74
   _elementName: Tungsten
   _elementOtherName: Wolfram
-  _elementSymbol: Wf
+  _elementSymbol: W
   _elementState: Solid
   _elementType: 7
   _atomicMass: 183.8
-  _electronConfig: 
-  _oxydationState: 
-  _electronegativity: 0
-  _atomicRadius: 0
-  _ionizationEnergy: 0
-  _electronAffinity: 0
-  _meltingPoint: 0
-  _boilingPoint: 0
+  _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>4</sup>'
+  _oxydationState: +6
+  _electronegativity: 2.36
+  _atomicRadius: 210
+  _ionizationEnergy: 7.98
+  _electronAffinity: 0.815
+  _meltingPoint: 3695
+  _boilingPoint: 5828
   _density: 19.3
   _yearDiscovered: 1783
