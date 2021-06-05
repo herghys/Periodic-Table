@@ -1,13 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
-//using UnityEditor.Events;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.UI;
 using TMPro;
+using System;
 
 [RequireComponent (typeof(Button))]
 [RequireComponent (typeof(Image))]
+[RequireComponent (typeof(CanvasGroup))]
 public class ElementCard : MonoBehaviour
 {
     #region Variables
@@ -16,15 +16,16 @@ public class ElementCard : MonoBehaviour
     [SerializeField] private TextMeshProUGUI textAtomSymbol;
     [SerializeField] private TextMeshProUGUI textAtomName;
     [SerializeField] private TextMeshProUGUI textAtomMass;
+    [SerializeField] private CanvasGroup canvasGroup;
 
-    [SerializeField] ElementType type;
+    [SerializeField] ElementType mType;
 
     [SerializeField]
     private Button mButton;
     [SerializeField]
     private Image mImage;
 
-    private string fallbackAtomName = "Element 1";
+    private string fallbackAtomName = "Hydrogen";
     private Element element;
 
     [SerializeField] GameUtility gameUtility;
@@ -34,6 +35,17 @@ public class ElementCard : MonoBehaviour
     #endregion
 
     #region Unity Defaults
+
+    private void OnEnable()
+    {
+        gameUtility.UpdateUnselectedType += SelectedType;
+    }
+
+    private void OnDisable()
+    {
+        gameUtility.UpdateUnselectedType -= SelectedType;
+    }
+
     private void Awake()
     {
         mButton = GetComponent<Button>();
@@ -43,21 +55,26 @@ public class ElementCard : MonoBehaviour
         atomName = gameObject.name;
         if (!gameUtility.ElementData.ContainsKey(atomName))
             atomName = fallbackAtomName;
+
+        element = gameUtility.ElementData[atomName];
+
+        canvasGroup = GetComponent<CanvasGroup>();
+
     }
 
     void Start()
     {
+        mType = element.GetElementType;
+
         SetUI(gameUtility.ElementData[atomName]);
-        element = gameUtility.ElementData[atomName];
+        
+        ChangeColor(mType);
 
-        type = element.GetElementType;
-
-        ChangeColor(element.GetElementType);
         SetButtonEvent();
     }
     #endregion
 
-    #region UI Changer
+    #region Methods
     private void ChangeColor(ElementType type)
     {  
         switch (type)
@@ -109,14 +126,28 @@ public class ElementCard : MonoBehaviour
         ColorUtility.TryParseHtmlString(hexColor, out newCol);
         mImage.color = newCol;
     }
-
-
     private void SetUI(Element element)
     {
         textAtomNum.text = element.ElementNum.ToString();
         textAtomSymbol.text = element.ElementSymbol;
         textAtomName.text = element.name;
         textAtomMass.text = element.AtomicMass.ToString();
+    }
+
+    private void SetUI(bool state)
+    {
+        if (state)
+        {
+            canvasGroup.alpha = 1;
+            canvasGroup.interactable = true;
+            canvasGroup.blocksRaycasts = true;
+        }
+        else
+        {
+            canvasGroup.alpha = 0;
+            canvasGroup.interactable = false;
+            canvasGroup.blocksRaycasts = false;
+        }
     }
     #endregion
 
@@ -125,12 +156,17 @@ public class ElementCard : MonoBehaviour
     {
         mButton.onClick.AddListener(OnclickEvent);
     }
-
-
     private void OnclickEvent()
     {
         gameUtility.UpdateElement?.Invoke(element, newCol, elementType);
         gameUtility.UpdateContextUI?.Invoke(true);
+    }
+    #endregion
+
+    #region Callbacks
+    private void SelectedType()
+    {
+        SetUI(gameUtility.IsSelectedElement[mType]);
     }
     #endregion
 }

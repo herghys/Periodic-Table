@@ -78,8 +78,11 @@ public struct DescriptionUIElements
 public class PeriodicUIManager : MonoBehaviour
 {
     #region Variables
+    [Header("References")]
     [SerializeField] GameUtility events;
-    [SerializeField] CanvasGroup group, cardGroup;
+    [SerializeField] CanvasGroup group, cardGroup, sideMenu;
+
+    [Header("Description Card References")]
     [SerializeField] DescriptionHeaderUIEleements header;
     [SerializeField] DescriptionUIElements description;
 
@@ -90,16 +93,18 @@ public class PeriodicUIManager : MonoBehaviour
     {
         events.UpdateElement += UpdateElement;
         events.UpdateContextUI += UpdateDescUI;
+        events.UpdateSideMenuUI += UpdateSideMenu;
     }
 
     private void OnDisable()
     {
         events.UpdateElement -= UpdateElement;
         events.UpdateContextUI -= UpdateDescUI;
+        events.UpdateSideMenuUI -= UpdateSideMenu;
     }
     #endregion
 
-    #region Event Subs
+    #region Event Subs and Callbacks
     private void UpdateElement(Element element, Color color, string elementType)
     {
         //Desc Header
@@ -136,9 +141,25 @@ public class PeriodicUIManager : MonoBehaviour
         if (state) UpdateDescUI(1, state);
         else UpdateDescUI(0, state);
     }
+
+    private void UpdateSideMenu(bool state)
+    {
+        if (state) 
+        { 
+            sideMenu.alpha = 1;
+            sideMenu.blocksRaycasts = true;
+            sideMenu.interactable = true; 
+        }
+        else 
+        { 
+            sideMenu.alpha = 0; 
+            sideMenu.blocksRaycasts = false;
+            sideMenu.interactable = false; 
+        }
+    }
     #endregion
 
-    #region methods
+    #region Methods
     private void UpdateDescUI(int i, bool state)
     {
         group.alpha = i;

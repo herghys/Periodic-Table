@@ -416,6 +416,7 @@ GameObject:
   - component: {fileID: 2271191468468046300}
   - component: {fileID: 2271191468468046299}
   - component: {fileID: 6261221627352556997}
+  - component: {fileID: -2893045086719209978}
   m_Layer: 5
   m_Name: ElementCard
   m_TagString: Untagged
@@ -545,7 +546,7 @@ MonoBehaviour:
   textAtomSymbol: {fileID: 2271191467116807905}
   textAtomName: {fileID: 2271191466550290921}
   textAtomMass: {fileID: 2271191468542315172}
-  type: 0
+  mType: 0
   mButton: {fileID: 0}
   mImage: {fileID: 0}
   gameUtility: {fileID: 11400000, guid: 6fdf5f0253e8d474c8b486c20d711428, type: 2}
@@ -563,6 +564,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 6deae265461b34a4da97cfaa05af5d2a, type: 2}
   radius: 20
+--- !u!225 &-2893045086719209978
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2271191468468046295}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &2271191468542315170
 GameObject:
   m_ObjectHideFlags: 0
