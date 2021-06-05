@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 [RequireComponent(typeof(CanvasGroup))]
 public class NonElementCard : MonoBehaviour
@@ -8,6 +9,11 @@ public class NonElementCard : MonoBehaviour
     [SerializeField] GameUtility gameUtility;
     [SerializeField] CanvasGroup canvasGroup;
     [SerializeField] ElementType mType;
+    [SerializeField] TextMeshProUGUI childText;
+
+    Color baseWhite = new Color32(255, 255, 255, 255);
+    Color disabledText = new Color32(173, 173, 173, 173);
+
     private void OnEnable()
     {
         gameUtility.UpdateUnselectedType += SelectedType;
@@ -20,22 +26,16 @@ public class NonElementCard : MonoBehaviour
     void Awake()
     {
         canvasGroup = GetComponent<CanvasGroup>();
+        if (childText == null) childText = GetComponentInChildren<TextMeshProUGUI>();
     }
 
     private void SetUI(bool state)
     {
-        if (state)
-        {
-            canvasGroup.alpha = 1;
-            canvasGroup.interactable = true;
-            canvasGroup.blocksRaycasts = true;
-        }
-        else
-        {
-            canvasGroup.alpha = 0;
-            canvasGroup.interactable = false;
-            canvasGroup.blocksRaycasts = false;
-        }
+        canvasGroup.interactable = state;
+        canvasGroup.blocksRaycasts = state;
+
+        if (state) childText.color = baseWhite;
+        else childText.color = disabledText;
     }
 
     private void SelectedType()

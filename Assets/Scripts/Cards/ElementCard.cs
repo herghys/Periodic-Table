@@ -20,10 +20,8 @@ public class ElementCard : MonoBehaviour
 
     [SerializeField] ElementType mType;
 
-    [SerializeField]
-    private Button mButton;
-    [SerializeField]
-    private Image mImage;
+    [SerializeField]private Button mButton;
+    [SerializeField] private Image mImage;
 
     private string fallbackAtomName = "Hydrogen";
     private Element element;
@@ -32,6 +30,13 @@ public class ElementCard : MonoBehaviour
 
     string hexColor, elementType;
     Color newCol;
+    Color baseWhite = new Color32(255, 255, 255, 255);
+    Color disabledText = new Color32(173, 173, 173, 173);
+
+    //text - ADADAD (173. 173. 173, 173)
+    //text - FFFFFF (255. 255. 255, 255)
+
+    //R25. G0, B31, A199 - 19001F
     #endregion
 
     #region Unity Defaults
@@ -59,7 +64,6 @@ public class ElementCard : MonoBehaviour
         element = gameUtility.ElementData[atomName];
 
         canvasGroup = GetComponent<CanvasGroup>();
-
     }
 
     void Start()
@@ -136,17 +140,22 @@ public class ElementCard : MonoBehaviour
 
     private void SetUI(bool state)
     {
+        canvasGroup.interactable = state;
+        canvasGroup.blocksRaycasts = state;
+
         if (state)
         {
-            canvasGroup.alpha = 1;
-            canvasGroup.interactable = true;
-            canvasGroup.blocksRaycasts = true;
+            textAtomMass.color = baseWhite;
+            textAtomName.color = baseWhite;
+            textAtomNum.color = baseWhite;
+            textAtomSymbol.color = baseWhite;
         }
         else
         {
-            canvasGroup.alpha = 0;
-            canvasGroup.interactable = false;
-            canvasGroup.blocksRaycasts = false;
+            textAtomMass.color = disabledText;
+            textAtomName.color = disabledText;
+            textAtomNum.color =  disabledText;
+            textAtomSymbol.color= disabledText;
         }
     }
     #endregion
