@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 67
   _elementName: Holmium
+  _elementOtherName: 
   _elementSymbol: Ho
   _elementState: Solid
   _elementType: 8
-  _atomicMass: 164.93033
+  _atomicMass: 164.93032836914062
   _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>11</sup>'
   _oxydationState: +3
   _electronegativity: 1.23
@@ -26,5 +27,5 @@ MonoBehaviour:
   _electronAffinity: 0
   _meltingPoint: 1747
   _boilingPoint: 2973
-  _density: 8.80
+  _density: 8.8
   _yearDiscovered: 1878

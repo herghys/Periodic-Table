@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 6
   _elementName: Carbon
+  _elementOtherName: 
   _elementSymbol: C
   _elementState: Solid
   _elementType: 0
-  _atomicMass: 12.011
+  _atomicMass: 12.01099967956543
   _electronConfig: '[He]2s<sup>2</sup>2p<sup>2</sup>'
   _oxydationState: +4, +2, -4
   _electronegativity: 2.55
@@ -28,4 +29,3 @@ MonoBehaviour:
   _boilingPoint: 4098
   _density: 2.267
   _yearDiscovered: Ancient
-  _prefabs: {fileID: 0}

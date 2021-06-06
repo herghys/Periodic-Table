@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 100
   _elementName: Fermium
+  _elementOtherName: 
   _elementSymbol: Fm
   _elementState: Solid
   _elementType: 9
-  _atomicMass: 257.09512
+  _atomicMass: 257.0951232910156
   _electronConfig: '[Rn]5f<sup>12</sup>7s<sup>2</sup>'
   _oxydationState: +3
   _electronegativity: 1.3

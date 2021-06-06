@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 37
   _elementName: Rubidium
+  _elementOtherName: 
   _elementSymbol: Rb
   _elementState: Solid
   _elementType: 2
-  _atomicMass: 85.468
+  _atomicMass: 85.46800231933594
   _electronConfig: '[Kr]5s<sup>1</sup>'
   _oxydationState: +1
   _electronegativity: 0.82

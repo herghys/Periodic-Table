@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 31
   _elementName: Gallium
+  _elementOtherName: 
   _elementSymbol: Ga
   _elementState: Solid
   _elementType: 5
-  _atomicMass: 69.72
+  _atomicMass: 69.72000122070312
   _electronConfig: '[Kr]5s<sup>2</sup>4d<sup>10</sup>5p<sup>1</sup>'
   _oxydationState: +3
   _electronegativity: 1.81

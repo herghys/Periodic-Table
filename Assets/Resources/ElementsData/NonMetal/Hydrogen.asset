@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 1
   _elementName: Hydrogen
+  _elementOtherName: 
   _elementSymbol: H
   _elementState: Gas
   _elementType: 0
-  _atomicMass: 1.008
+  _atomicMass: 1.0080000162124634
   _electronConfig: 1s<sup>1</sup>
   _oxydationState: +1, -1
   _electronegativity: 2.2

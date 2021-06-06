@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 59
   _elementName: Praseodymium
+  _elementOtherName: 
   _elementSymbol: Pr
   _elementState: Solid
   _elementType: 8
-  _atomicMass: 140.9077
+  _atomicMass: 140.90769958496094
   _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>3</sup>'
   _oxydationState: +3
   _electronegativity: 1.13

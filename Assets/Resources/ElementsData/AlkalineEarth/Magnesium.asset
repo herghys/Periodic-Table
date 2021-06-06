@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 12
   _elementName: Magnesium
+  _elementOtherName: 
   _elementSymbol: Mg
   _elementState: Solid
   _elementType: 3
-  _atomicMass: 24.305
+  _atomicMass: 24.30500030517578
   _electronConfig: '[Ne]3s<sup>2</sup>'
   _oxydationState: +2
   _electronegativity: 1.31

@@ -14,17 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 64
   _elementName: Gadolinium
+  _elementOtherName: 
   _elementSymbol: Gd
   _elementState: Solid
   _elementType: 8
-  _atomicMass: 157.2
+  _atomicMass: 157.1999969482422
   _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>7</sup>5d<sup>1</sup>'
   _oxydationState: +3
   _electronegativity: 1.2
   _atomicRadius: 237
-  _ionizationEnergy: 6.150
+  _ionizationEnergy: 6.15
   _electronAffinity: 0
   _meltingPoint: 1586
   _boilingPoint: 3546
-  _density: 7.90
+  _density: 7.9
   _yearDiscovered: 1880

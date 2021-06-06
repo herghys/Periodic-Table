@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 32
   _elementName: Germanium
+  _elementOtherName: 
   _elementSymbol: Ge
   _elementState: Solid
   _elementType: 4
-  _atomicMass: 72.63
+  _atomicMass: 72.62999725341797
   _electronConfig: '[Ar]4s<sup>2</sup>3d<sup>10</sup>4p<sup>2</sup>'
   _oxydationState: +4, +2
   _electronegativity: 2.01
@@ -28,4 +29,3 @@ MonoBehaviour:
   _boilingPoint: 3106
   _density: 5.323
   _yearDiscovered: 1886
-  _prefabs: {fileID: 0}

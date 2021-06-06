@@ -18,14 +18,14 @@ MonoBehaviour:
   _elementSymbol: Nb
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 92.9064
-  _electronConfig: 
-  _oxydationState: 
-  _electronegativity: 0
-  _atomicRadius: 0
-  _ionizationEnergy: 0
-  _electronAffinity: 0
-  _meltingPoint: 0
-  _boilingPoint: 0
+  _atomicMass: 92.90640258789062
+  _electronConfig: '[Kr]5s<sup>1</sup>4d<sup>4</sup>'
+  _oxydationState: +5, +3
+  _electronegativity: 1.6
+  _atomicRadius: 207
+  _ionizationEnergy: 6.759
+  _electronAffinity: 0.893
+  _meltingPoint: 2750
+  _boilingPoint: 5017
   _density: 8.57
   _yearDiscovered: 1801

@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 57
   _elementName: Lanthanum
+  _elementOtherName: 
   _elementSymbol: La
   _elementState: Solid
   _elementType: 8
-  _atomicMass: 138.9055
+  _atomicMass: 138.90550231933594
   _electronConfig: '[Xe]6s<sup>2</sup>5d<sup>1</sup>'
   _oxydationState: +3
   _electronegativity: 1.1

@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 19
   _elementName: Potassium
+  _elementOtherName: 
   _elementSymbol: K
   _elementState: Solid
   _elementType: 2
-  _atomicMass: 39.098
+  _atomicMass: 39.097999572753906
   _electronConfig: '[Ar]4s<sup>1</sup>'
   _oxydationState: +1
   _electronegativity: 0.82

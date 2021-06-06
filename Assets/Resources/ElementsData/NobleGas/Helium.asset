@@ -14,11 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 2
   _elementName: Helium
+  _elementOtherName: 
   _elementSymbol: He
   _elementState: Gas
   _elementType: 1
-  _atomicMass: 4.0026
-  _electronConfig: 1s<sup>2
+  _atomicMass: 4.002600193023682
+  _electronConfig: 1s<sup>2</sup>
   _oxydationState: 0
   _electronegativity: 0
   _atomicRadius: 140
@@ -28,4 +29,3 @@ MonoBehaviour:
   _boilingPoint: 4.22
   _density: 0.0001785
   _yearDiscovered: 1868
-  _prefabs: {fileID: 0}

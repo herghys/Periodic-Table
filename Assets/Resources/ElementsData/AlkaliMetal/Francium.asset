@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 87
   _elementName: Francium
+  _elementOtherName: 
   _elementSymbol: Fr
   _elementState: Solid
   _elementType: 2
-  _atomicMass: 223.01973
+  _atomicMass: 223.0197296142578
   _electronConfig: '[Rn]7s<sup>1</sup>'
   _oxydationState: +1
   _electronegativity: 0.7

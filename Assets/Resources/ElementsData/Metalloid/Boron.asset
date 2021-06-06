@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 5
   _elementName: Boron
+  _elementOtherName: 
   _elementSymbol: B
   _elementState: Solid
   _elementType: 4
-  _atomicMass: 10.81
+  _atomicMass: 10.8100004196167
   _electronConfig: '[He]2s<sup>2</sup>2p<sup>1</sup>'
   _oxydationState: +3
   _electronegativity: 2.04
@@ -28,4 +29,3 @@ MonoBehaviour:
   _boilingPoint: 4273
   _density: 2.37
   _yearDiscovered: 1808
-  _prefabs: {fileID: 0}

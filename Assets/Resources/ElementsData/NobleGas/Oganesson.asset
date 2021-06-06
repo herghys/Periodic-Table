@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 118
   _elementName: Oganesson
+  _elementOtherName: 
   _elementSymbol: Og
   _elementState: Gas (Expected)
   _elementType: 1
-  _atomicMass: 295.216
+  _atomicMass: 295.21600341796875
   _electronConfig: '[Rn]7s<sup>2</sup>7p<sup>6</sup>5f<sup>14</sup>6d<sup>10</sup>'
   _oxydationState: +6, +4, +2, +1, 0, -1
   _electronegativity: 0

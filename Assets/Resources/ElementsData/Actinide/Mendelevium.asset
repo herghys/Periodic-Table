@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 101
   _elementName: Mendelevium
+  _elementOtherName: 
   _elementSymbol: Md
   _elementState: Solid
   _elementType: 9
-  _atomicMass: 258.09842
+  _atomicMass: 258.0984191894531
   _electronConfig: '[Rn]7s<sup>2</sup>5f<sup>13</sup>'
   _oxydationState: +3, +2
   _electronegativity: 1.3

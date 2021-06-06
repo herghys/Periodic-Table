@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 102
   _elementName: Nobelium
+  _elementOtherName: 
   _elementSymbol: No
   _elementState: Solid
   _elementType: 9
-  _atomicMass: 259.101
+  _atomicMass: 259.10101318359375
   _electronConfig: '[Rn]7s<sup>2</sup>5f<sup>14</sup>'
   _oxydationState: +3. +2
   _electronegativity: 1.3

@@ -18,9 +18,9 @@ MonoBehaviour:
   _elementSymbol: Mt
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 277.254
-  _electronConfig: 
-  _oxydationState: 
+  _atomicMass: 277.2539978027344
+  _electronConfig: '[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>7</sup>'
+  _oxydationState: 9, 8, 6, 4, 3, 1
   _electronegativity: 0
   _atomicRadius: 0
   _ionizationEnergy: 0

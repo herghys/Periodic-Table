@@ -18,7 +18,7 @@ MonoBehaviour:
   _elementSymbol: Hs
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 269.134
+  _atomicMass: 269.1340026855469
   _electronConfig: '[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>6</sup>'
   _oxydationState: 8, 6, 5, 4, 3, 2
   _electronegativity: 0

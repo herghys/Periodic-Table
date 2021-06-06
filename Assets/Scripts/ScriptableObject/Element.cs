@@ -34,8 +34,8 @@ public class Element : ScriptableObject
     [SerializeField] ElementType _elementType = ElementType.Nonmetal;
     public ElementType GetElementType { get { return _elementType; } }
 
-    [SerializeField] private float _atomicMass;
-    public string AtomicMass { get { return _atomicMass.ToString(); } }
+    [SerializeField] private double _atomicMass;
+    public string AtomicMass { get { return _atomicMass.ToString("0.####"); } }
 
     [SerializeField] private string _electronConfig;
     public string ElectronConfig { get { return _electronConfig; } }
@@ -50,19 +50,19 @@ public class Element : ScriptableObject
     public string AtomicRadius { get { return _atomicRadius==0? empty: _atomicRadius.ToString() ; } }
 
     [SerializeField] private double _ionizationEnergy;
-    public string IonizationEnergy { get { return _ionizationEnergy == 0? empty : _ionizationEnergy.ToString(); } }
+    public string IonizationEnergy { get { return _ionizationEnergy == 0? empty : _ionizationEnergy.ToString("0.##"); } }
 
     [SerializeField] private double _electronAffinity;
-    public string ElectronAffinity { get { return _electronAffinity==0? empty : _electronAffinity.ToString(); } }
+    public string ElectronAffinity { get { return _electronAffinity==0? empty : _electronAffinity.ToString("0.##"); } }
 
     [SerializeField] private double _meltingPoint;
-    public string MeltingPoint { get { return _meltingPoint == 0 ? empty  : _meltingPoint.ToString() ; } }
+    public string MeltingPoint { get { return _meltingPoint == 0 ? empty  : _meltingPoint.ToString("0.####") ; } }
 
     [SerializeField] private double _boilingPoint;
-    public string BoilingPoint { get { return _boilingPoint == 0 ? empty : _boilingPoint.ToString(); } }
+    public string BoilingPoint { get { return _boilingPoint == 0 ? empty : _boilingPoint.ToString("0.####"); } }
 
     [SerializeField] private double _density;
-    public string Density { get { return (_density == 0) ? empty : _density.ToString(); } }
+    public string Density { get { return (_density == 0) ? empty : _density.ToString("0.####"); } }
 
 
     [SerializeField] private string _yearDiscovered;

@@ -18,14 +18,14 @@ MonoBehaviour:
   _elementSymbol: Pt
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 195.08
-  _electronConfig: 
-  _oxydationState: 
-  _electronegativity: 0
-  _atomicRadius: 0
-  _ionizationEnergy: 0
-  _electronAffinity: 0
-  _meltingPoint: 0
-  _boilingPoint: 0
+  _atomicMass: 195.0800018310547
+  _electronConfig: '[Xe]6s<sup>1</sup>4f<sup>14</sup>5d<sup>9</sup>'
+  _oxydationState: +4, +2
+  _electronegativity: 2.28
+  _atomicRadius: 209
+  _ionizationEnergy: 9
+  _electronAffinity: 2.128
+  _meltingPoint: 2041.55
+  _boilingPoint: 4098
   _density: 21.46
   _yearDiscovered: 1735

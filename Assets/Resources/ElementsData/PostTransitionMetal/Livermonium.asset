@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 116
   _elementName: Livermonium
+  _elementOtherName: 
   _elementSymbol: Lv
   _elementState: Solid (Expected)
   _elementType: 5
-  _atomicMass: 293.205
+  _atomicMass: 293.2049865722656
   _electronConfig: '[Rn]7s<sup>2</sup>7p<sup>4</sup>5f<sup>14</sup>6d<sup>10</sup>'
   _oxydationState: +4, +2, -2
   _electronegativity: 0

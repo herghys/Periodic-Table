@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 96
   _elementName: Curium
+  _elementOtherName: 
   _elementSymbol: Cm
   _elementState: Solid
   _elementType: 9
-  _atomicMass: 247.07034
+  _atomicMass: 247.07034301757812
   _electronConfig: '[Rn]7s<sup>2</sup>5f<sup>7</sup>6d<sup>1</sup>'
   _oxydationState: +3
   _electronegativity: 1.3

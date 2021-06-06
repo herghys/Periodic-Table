@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: Bohrium
   m_EditorClassIdentifier: 
   _elementNum: 107
-  _elementName: Bohrium 
+  _elementName: Bohrium
+  _elementOtherName: 
   _elementSymbol: Bh
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 270.133
+  _atomicMass: 270.13299560546875
   _electronConfig: '[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>5</sup>'
   _oxydationState: 7, 5, 4, 3
   _electronegativity: 0

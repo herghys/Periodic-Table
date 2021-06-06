@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 13
   _elementName: Aluminum
+  _elementOtherName: 
   _elementSymbol: Al
   _elementState: Solid
   _elementType: 5
-  _atomicMass: 26.981538
+  _atomicMass: 26.981538772583008
   _electronConfig: '[Ne]3s<sup>2</sup>3p<sup>1</sup>'
   _oxydationState: +3
   _electronegativity: 1.61

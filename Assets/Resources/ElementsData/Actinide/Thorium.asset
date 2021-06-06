@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 90
   _elementName: Thorium
+  _elementOtherName: 
   _elementSymbol: Th
   _elementState: Solid
   _elementType: 9
-  _atomicMass: 232.038
+  _atomicMass: 232.03799438476562
   _electronConfig: '[Rn]7s<sup>2</sup>6d<sup>2</sup>'
   _oxydationState: +4
   _electronegativity: 1.3

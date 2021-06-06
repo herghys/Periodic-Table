@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 8
   _elementName: Oxygen
+  _elementOtherName: 
   _elementSymbol: O
   _elementState: Gas
   _elementType: 0
@@ -28,4 +29,3 @@ MonoBehaviour:
   _boilingPoint: 90.2
   _density: 0.001429
   _yearDiscovered: 1774
-  _prefabs: {fileID: 0}

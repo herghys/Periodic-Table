@@ -18,7 +18,7 @@ MonoBehaviour:
   _elementSymbol: Re
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 186.21
+  _atomicMass: 186.2100067138672
   _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>5</sup>'
   _oxydationState: +7, +6, +4
   _electronegativity: 1.9

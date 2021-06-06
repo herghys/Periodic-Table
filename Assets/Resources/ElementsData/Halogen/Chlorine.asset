@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 17
   _elementName: Chlorine
+  _elementOtherName: 
   _elementSymbol: Cl
   _elementState: Gas
   _elementType: 6
-  _atomicMass: 35.45
+  _atomicMass: 35.45000076293945
   _electronConfig: '[Ne]3s<sup>2</sup>3p<sup>5</sup>'
   _oxydationState: +7, +5, +1, -1
   _electronegativity: 3.16
@@ -28,4 +29,3 @@ MonoBehaviour:
   _boilingPoint: 239.11
   _density: 0.003214
   _yearDiscovered: 1774
-  _prefabs: {fileID: 0}

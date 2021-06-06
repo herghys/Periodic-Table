@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 98
   _elementName: Californium
+  _elementOtherName: 
   _elementSymbol: Cf
   _elementState: Solid
   _elementType: 9
-  _atomicMass: 251.07959
+  _atomicMass: 251.07958984375
   _electronConfig: '[Rn]7s<sup>2</sup>5f<sup>10</sup>'
   _oxydationState: +3
   _electronegativity: 1.3

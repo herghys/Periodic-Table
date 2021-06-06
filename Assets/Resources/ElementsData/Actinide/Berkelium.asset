@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 97
   _elementName: Berkelium
+  _elementOtherName: 
   _elementSymbol: Bk
   _elementState: Solid
   _elementType: 9
-  _atomicMass: 247.07031
+  _atomicMass: 247.0703125
   _electronConfig: '[Rn]7s<sup>2</sup>5f<sup>9</sup>'
   _oxydationState: +4, +3
   _electronegativity: 1.3

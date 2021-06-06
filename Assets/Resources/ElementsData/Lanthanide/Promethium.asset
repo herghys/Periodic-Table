@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 61
   _elementName: Promethium
+  _elementOtherName: 
   _elementSymbol: Pm
   _elementState: Solid
   _elementType: 8
-  _atomicMass: 144.91276
+  _atomicMass: 144.9127655029297
   _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>5</sup>'
   _oxydationState: +3
   _electronegativity: 0

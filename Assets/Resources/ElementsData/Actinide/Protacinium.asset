@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 91
   _elementName: Protacinium
+  _elementOtherName: 
   _elementSymbol: Pa
   _elementState: Solid
   _elementType: 9
-  _atomicMass: 231.0359
+  _atomicMass: 231.03590393066406
   _electronConfig: '[Rn]7s<sup>2</sup>5f<sup>2</sup>6d<sup>1</sup>'
   _oxydationState: +5, +4
   _electronegativity: 1.5

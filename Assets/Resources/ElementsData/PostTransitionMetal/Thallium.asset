@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 81
   _elementName: Thallium
+  _elementOtherName: 
   _elementSymbol: Tl
   _elementState: Solid
   _elementType: 5
-  _atomicMass: 204.383
+  _atomicMass: 204.38299560546875
   _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>10</sup>6p<sup>1</sup>'
   _oxydationState: +3, +1
   _electronegativity: 1.62

@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 9
   _elementName: Fluorine
+  _elementOtherName: 
   _elementSymbol: N
   _elementState: Gas
   _elementType: 6
-  _atomicMass: 18.99840316
+  _atomicMass: 18.998403549194336
   _electronConfig: '[He]2s<sup>2</sup>2p<sup>5</sup>'
   _oxydationState: -1
   _electronegativity: 3.98
@@ -28,4 +29,3 @@ MonoBehaviour:
   _boilingPoint: 85.03
   _density: 0.001696
   _yearDiscovered: 1670
-  _prefabs: {fileID: 0}

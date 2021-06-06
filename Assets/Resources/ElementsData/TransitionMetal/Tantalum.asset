@@ -18,7 +18,7 @@ MonoBehaviour:
   _elementSymbol: Ta
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 180.9479
+  _atomicMass: 180.94790649414062
   _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>3</sup>'
   _oxydationState: +5
   _electronegativity: 1.5

@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 53
   _elementName: Iodine
+  _elementOtherName: 
   _elementSymbol: I
   _elementState: Solid
   _elementType: 6
-  _atomicMass: 126.9045
+  _atomicMass: 126.90450286865234
   _electronConfig: '[Kr]5s<sup>2</sup>4d<sup<10</sup>5p<sup>5</sup>'
   _oxydationState: +7, +5, +1, -1
   _electronegativity: 2.66
@@ -28,4 +29,3 @@ MonoBehaviour:
   _boilingPoint: 457.55
   _density: 4.93
   _yearDiscovered: 1811
-  _prefabs: {fileID: 0}

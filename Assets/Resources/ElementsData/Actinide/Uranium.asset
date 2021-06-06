@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 92
   _elementName: Uranium
+  _elementOtherName: 
   _elementSymbol: U
   _elementState: Solid
   _elementType: 9
-  _atomicMass: 238.0289
+  _atomicMass: 238.02890014648438
   _electronConfig: '[Rn]7s<sup>2</sup>5f<sup>3</sup>6d<sup>1</sup>'
   _oxydationState: +6, +5, +4, +3
   _electronegativity: 1.38

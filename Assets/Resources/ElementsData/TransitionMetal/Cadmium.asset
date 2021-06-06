@@ -14,17 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 48
   _elementName: Cadmium
+  _elementOtherName: 
   _elementSymbol: Cd
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 112.41
-  _electronConfig: 	'[Kr]5s<sup>2</sup>4d<sup>10</sup>'
+  _atomicMass: 112.41000366210938
+  _electronConfig: '[Kr]5s<sup>2</sup>4d<sup>10</sup>'
   _oxydationState: +2
   _electronegativity: 1.69
   _atomicRadius: 158
-  _ionizationEnergy: 8.994 
+  _ionizationEnergy: 8.994
   _electronAffinity: 0
   _meltingPoint: 594.22
   _boilingPoint: 1040
   _density: 8.69
-  _yearDiscovered: 1817 
+  _yearDiscovered: 1817

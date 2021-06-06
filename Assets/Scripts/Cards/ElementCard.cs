@@ -1,9 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using System;
 
 [RequireComponent (typeof(Button))]
 [RequireComponent (typeof(Image))]
@@ -32,11 +29,6 @@ public class ElementCard : MonoBehaviour
     Color newCol;
     Color baseWhite = new Color32(255, 255, 255, 255);
     Color disabledText = new Color32(173, 173, 173, 173);
-
-    //text - ADADAD (173. 173. 173, 173)
-    //text - FFFFFF (255. 255. 255, 255)
-
-    //R25. G0, B31, A199 - 19001F
     #endregion
 
     #region Unity Defaults

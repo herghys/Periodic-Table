@@ -18,7 +18,7 @@ MonoBehaviour:
   _elementSymbol: Sg
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 269.128
+  _atomicMass: 269.12799072265625
   _electronConfig: '[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>4</sup>'
   _oxydationState: 6, 5, 4, 3, 0
   _electronegativity: 0

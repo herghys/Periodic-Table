@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 113
   _elementName: Nihonium
+  _elementOtherName: 
   _elementSymbol: Nh
   _elementState: Solid (Expected)
   _elementType: 5
-  _atomicMass: 286.182
+  _atomicMass: 286.1820068359375
   _electronConfig: '[Rn]5f<sup>14</sup>6d<sup>10</sup>7s<sup>2</sup>7p<sup>1</sup>'
   _oxydationState: 
   _electronegativity: 0

@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 39
   _elementName: Yttrium
+  _elementOtherName: 
   _elementSymbol: Y
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 88.9058
+  _atomicMass: 88.90579986572266
   _electronConfig: '[Kr]5s<sup>2</sup>4d<sup>1</sup>'
   _oxydationState: +3
   _electronegativity: 1.22

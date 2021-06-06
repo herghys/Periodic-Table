@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 94
   _elementName: Plutonium
+  _elementOtherName: 
   _elementSymbol: Pu
   _elementState: Solid
   _elementType: 9
-  _atomicMass: 244.0629
+  _atomicMass: 244.06289672851562
   _electronConfig: '[Rn]7s<sup>2<sup>5f<sup>6</sup>'
   _oxydationState: +6, +5, +4, +3
   _electronegativity: 1.28

@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 51
   _elementName: Antimony
+  _elementOtherName: 
   _elementSymbol: Sb
   _elementState: Solid
   _elementType: 4
-  _atomicMass: 121.76
+  _atomicMass: 121.76000213623047
   _electronConfig: '[Kr]5s<sup>2</sup>4d<sup>10</sup>5p<sup>3</sup>'
   _oxydationState: +5, +3, -3
   _electronegativity: 2.05
@@ -28,4 +29,3 @@ MonoBehaviour:
   _boilingPoint: 1860
   _density: 6.685
   _yearDiscovered: Ancient
-  _prefabs: {fileID: 0}

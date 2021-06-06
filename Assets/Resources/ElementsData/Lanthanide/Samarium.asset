@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 62
   _elementName: Samarium
+  _elementOtherName: 
   _elementSymbol: Sm
   _elementState: Solid
   _elementType: 8
-  _atomicMass: 150.4
+  _atomicMass: 150.39999389648438
   _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>6</sup>'
   _oxydationState: +3, +2
   _electronegativity: 1.17
@@ -28,4 +29,3 @@ MonoBehaviour:
   _boilingPoint: 2067
   _density: 7.52
   _yearDiscovered: 1879
-  

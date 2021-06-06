@@ -18,7 +18,7 @@ MonoBehaviour:
   _elementSymbol: W
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 183.8
+  _atomicMass: 183.8000030517578
   _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>4</sup>'
   _oxydationState: +6
   _electronegativity: 2.36

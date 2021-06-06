@@ -18,7 +18,7 @@ MonoBehaviour:
   _elementSymbol: Ir
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 192.22
+  _atomicMass: 192.22000122070312
   _electronConfig: '[Xe]6s<sup>2</sup>4f<>sup14</sup>5d<sup>7</sup>'
   _oxydationState: +4, +3
   _electronegativity: 2.2

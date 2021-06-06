@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 7
   _elementName: Nitrogen
+  _elementOtherName: 
   _elementSymbol: N
   _elementState: Gas
   _elementType: 0
-  _atomicMass: 14.007
+  _atomicMass: 14.006999969482422
   _electronConfig: '[He]2s<sup>2</sup>2p<sup>3</sup>'
   _oxydationState: '+5, +4, +3, +2, +1, -1, -2, -3 '
   _electronegativity: 3.04
@@ -28,4 +29,3 @@ MonoBehaviour:
   _boilingPoint: 77.36
   _density: 0.0012506
   _yearDiscovered: 1772
-  _prefabs: {fileID: 0}

@@ -18,14 +18,14 @@ MonoBehaviour:
   _elementSymbol: Ni
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 58.693
-  _electronConfig: 
-  _oxydationState: 
-  _electronegativity: 0
-  _atomicRadius: 0
-  _ionizationEnergy: 0
-  _electronAffinity: 0
-  _meltingPoint: 0
-  _boilingPoint: 0
+  _atomicMass: 58.69300079345703
+  _electronConfig: '[Ar]4s<sup>2</sup>3d<sup>8</sup>'
+  _oxydationState: +3, +2
+  _electronegativity: 1.91
+  _atomicRadius: 163
+  _ionizationEnergy: 7.64
+  _electronAffinity: 1.156
+  _meltingPoint: 1728
+  _boilingPoint: 3186
   _density: 8.912
   _yearDiscovered: 1751

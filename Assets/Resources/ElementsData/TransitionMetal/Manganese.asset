@@ -18,7 +18,7 @@ MonoBehaviour:
   _elementSymbol: Mn
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 54.93804
+  _atomicMass: 54.93804168701172
   _electronConfig: '[Ar]4s<sup>2</sup>3d<sup>5</sup>'
   _oxydationState: +7, +4, +3, +2
   _electronegativity: 1.55

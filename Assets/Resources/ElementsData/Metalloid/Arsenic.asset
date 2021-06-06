@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 33
   _elementName: Arsenic
+  _elementOtherName: 
   _elementSymbol: As
   _elementState: Solid
   _elementType: 4
-  _atomicMass: 74.92159
+  _atomicMass: 74.92159271240234
   _electronConfig: '[He]4s<sup>2</sup>3d<sup>10</sup>4p<sup>3</sup>'
   _oxydationState: +5, +3, -3
   _electronegativity: 2.18
@@ -28,4 +29,3 @@ MonoBehaviour:
   _boilingPoint: 887
   _density: 5.776
   _yearDiscovered: Ancient
-  _prefabs: {fileID: 0}

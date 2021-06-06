@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 72
   _elementName: Hafnium
+  _elementOtherName: 
   _elementSymbol: Hf
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 178.49
+  _atomicMass: 178.49000549316406
   _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>2</sup>'
   _oxydationState: +4
   _electronegativity: 1.3

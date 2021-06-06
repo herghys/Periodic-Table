@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 104
   _elementName: Rutherfordium
+  _elementOtherName: 
   _elementSymbol: Rf
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 267.122
+  _atomicMass: 267.12200927734375
   _electronConfig: '[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>2</sup>'
   _oxydationState: +4
   _electronegativity: 0

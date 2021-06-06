@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 14
   _elementName: Silicon
+  _elementOtherName: 
   _elementSymbol: Si
   _elementState: Solid
   _elementType: 4
-  _atomicMass: 28.085
+  _atomicMass: 28.084999084472656
   _electronConfig: '[Ne]3s<sup>2</sup>3p<sup>2</sup>'
   _oxydationState: +4, +2, -4
   _electronegativity: 1.9

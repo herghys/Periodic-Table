@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -26,8 +24,8 @@ public class PeriodicManager : MonoBehaviour
 
     public void LoadScene(string sceneName)
     {
-        Debug.Log(sceneName);
-        SceneManager.LoadScene(sceneName);
+        LoadingEvents.SceneToLoad = sceneName;
+        SceneManager.LoadScene("LoadingScene");
     }
 
     private void OnDestroy()

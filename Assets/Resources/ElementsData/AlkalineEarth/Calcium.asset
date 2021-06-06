@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 20
   _elementName: Calcium
+  _elementOtherName: 
   _elementSymbol: Ca
   _elementState: Solid
   _elementType: 3
-  _atomicMass: 40.08
+  _atomicMass: 40.08000183105469
   _electronConfig: '[Ar]4s<sup>2</sup>'
   _oxydationState: +2
   _electronegativity: 1

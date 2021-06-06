@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 88
   _elementName: Radium
+  _elementOtherName: 
   _elementSymbol: Ra
   _elementState: Solid
   _elementType: 3
-  _atomicMass: 226.0254
+  _atomicMass: 226.02540588378906
   _electronConfig: '[Rn]7s<sup>2</sup>'
   _oxydationState: +2
   _electronegativity: 0.9

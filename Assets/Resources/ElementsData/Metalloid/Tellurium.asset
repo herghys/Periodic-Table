@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 52
   _elementName: Tellurium
+  _elementOtherName: 
   _elementSymbol: Te
   _elementState: Solid
   _elementType: 4
-  _atomicMass: 127.6
+  _atomicMass: 127.5999984741211
   _electronConfig: '[Kr]5s<sup>2</sup>4d<sup>10</sup>5p<sup>4</sup>'
   _oxydationState: +6, +4, -2
   _electronegativity: 2.1
@@ -28,4 +29,3 @@ MonoBehaviour:
   _boilingPoint: 1261
   _density: 6.232
   _yearDiscovered: 1782
-  _prefabs: {fileID: 0}

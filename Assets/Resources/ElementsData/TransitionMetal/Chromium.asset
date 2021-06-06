@@ -14,12 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 24
   _elementName: Chromium
+  _elementOtherName: 
   _elementSymbol: Cr
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 51.996
+  _atomicMass: 51.99599838256836
   _electronConfig: '[Ar]3d<sip>5</sup>4s<sup>1</sup>'
-  _oxydationState: 	+6, +3, +2
+  _oxydationState: +6, +3, +2
   _electronegativity: 1.66
   _atomicRadius: 189
   _ionizationEnergy: 6.767

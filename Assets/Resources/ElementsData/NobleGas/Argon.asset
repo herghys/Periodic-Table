@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 18
   _elementName: Argon
+  _elementOtherName: 
   _elementSymbol: Ar
   _elementState: Gas
   _elementType: 1
-  _atomicMass: 39.9
+  _atomicMass: 39.900001525878906
   _electronConfig: '[Ne]3s<sup>2</sup>3p<sup>6</sup>'
   _oxydationState: 0
   _electronegativity: 0
@@ -28,4 +29,3 @@ MonoBehaviour:
   _boilingPoint: 87.3
   _density: 0.0017837
   _yearDiscovered: 1894
-  _prefabs: {fileID: 0}

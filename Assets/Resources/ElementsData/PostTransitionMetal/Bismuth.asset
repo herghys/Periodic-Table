@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 83
   _elementName: Bismuth
+  _elementOtherName: 
   _elementSymbol: Bi
   _elementState: Solid
   _elementType: 5
-  _atomicMass: 208.9804
+  _atomicMass: 208.9803924560547
   _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>10</sup>6p<sup>3</sup>'
   _oxydationState: +5, +3
   _electronegativity: 2.02

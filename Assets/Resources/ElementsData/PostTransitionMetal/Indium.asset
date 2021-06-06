@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 49
   _elementName: Indium
+  _elementOtherName: 
   _elementSymbol: In
   _elementState: Solid
   _elementType: 5
-  _atomicMass: 114.82
+  _atomicMass: 114.81999969482422
   _electronConfig: '[Kr]5s<sup>2</sup>4d<sup>10</sup>5p<sup>1</sup>'
   _oxydationState: +3
   _electronegativity: 1.78

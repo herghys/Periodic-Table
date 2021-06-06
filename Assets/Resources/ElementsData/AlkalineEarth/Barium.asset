@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 56
   _elementName: Barium
+  _elementOtherName: 
   _elementSymbol: Ba
   _elementState: Solid
   _elementType: 3
-  _atomicMass: 137.33
+  _atomicMass: 137.3300018310547
   _electronConfig: '[Xe]6s<sup>2</sup>'
   _oxydationState: +2
   _electronegativity: 0.89

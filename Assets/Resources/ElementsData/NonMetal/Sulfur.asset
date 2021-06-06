@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 16
   _elementName: Sulfur
+  _elementOtherName: 
   _elementSymbol: S
   _elementState: Solid
   _elementType: 0
-  _atomicMass: 0
+  _atomicMass: 32.06999969482422
   _electronConfig: '[Ne]3s<sup>2</sup>3p<sup>4</sup>'
   _oxydationState: +6, +4, -2
   _electronegativity: 2.58

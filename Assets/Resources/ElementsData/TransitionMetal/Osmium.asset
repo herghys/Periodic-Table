@@ -18,14 +18,14 @@ MonoBehaviour:
   _elementSymbol: Os
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 190.2
-  _electronConfig: 
-  _oxydationState: 
-  _electronegativity: 0
-  _atomicRadius: 0
-  _ionizationEnergy: 0
-  _electronAffinity: 0
-  _meltingPoint: 0
-  _boilingPoint: 0
+  _atomicMass: 190.1999969482422
+  _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>6</sup>'
+  _oxydationState: +4, +3
+  _electronegativity: 2.2
+  _atomicRadius: 216
+  _ionizationEnergy: 8.7
+  _electronAffinity: 1.1
+  _meltingPoint: 3306
+  _boilingPoint: 5285
   _density: 22.57
   _yearDiscovered: 1803

@@ -18,8 +18,8 @@ MonoBehaviour:
   _elementSymbol: Cu
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 63.55
-  _electronConfig: 	'[Ar]4s<sup>1</sup>3d<sup>10</sup>'
+  _atomicMass: 63.54999923706055
+  _electronConfig: '[Ar]4s<sup>1</sup>3d<sup>10</sup>'
   _oxydationState: +2, +1
   _electronegativity: 1.9
   _atomicRadius: 140

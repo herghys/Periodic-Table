@@ -18,7 +18,7 @@ MonoBehaviour:
   _elementSymbol: V
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 50.941
+  _atomicMass: 50.941001892089844
   _electronConfig: '[Ar]4s<sup>2</sup>3d<sup>3</sup>'
   _oxydationState: +5, +4, +3, +2
   _electronegativity: 1.63
@@ -27,5 +27,5 @@ MonoBehaviour:
   _electronAffinity: 0.525
   _meltingPoint: 2183
   _boilingPoint: 3680
-  _density: 6.0
+  _density: 6
   _yearDiscovered: 1801

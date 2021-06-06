@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 114
   _elementName: Flerovium
+  _elementOtherName: 
   _elementSymbol: Fl
   _elementState: Solid (Expected)
   _elementType: 5
-  _atomicMass: 290.192
+  _atomicMass: 290.1919860839844
   _electronConfig: '[Rn]7s<sup>2</sup>7p<sup>2</sup>5f<sup>14</sup>6d<sup>10</sup>'
   _oxydationState: 6, 4, 2, 1, 0
   _electronegativity: 0

@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 55
   _elementName: Cesium
+  _elementOtherName: 
   _elementSymbol: Cs
   _elementState: Solid
   _elementType: 2
-  _atomicMass: 132.90546
+  _atomicMass: 132.90545654296875
   _electronConfig: '[Xe]6s<sup>1</sup>'
   _oxydationState: +1
   _electronegativity: 0.79

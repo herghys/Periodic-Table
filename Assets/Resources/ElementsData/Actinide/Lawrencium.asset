@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 103
   _elementName: Lawrencium
+  _elementOtherName: 
   _elementSymbol: Lr
   _elementState: Solid
   _elementType: 9
-  _atomicMass: 266.12
+  _atomicMass: 266.1199951171875
   _electronConfig: '[Rn]7s<sup>2</sup>5f<sup>14</sup>6d<sup>1</sup>'
   _oxydationState: +3
   _electronegativity: 1.3

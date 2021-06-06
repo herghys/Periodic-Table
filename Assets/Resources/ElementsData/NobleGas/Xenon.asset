@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 54
   _elementName: Xenon
+  _elementOtherName: 
   _elementSymbol: Xe
   _elementState: Gas
   _elementType: 1
-  _atomicMass: 0
+  _atomicMass: 131.2899932861328
   _electronConfig: '[Kr]5s<sup>2</sup>4d<sup>10</sup>5p<sup>6</sup>'
   _oxydationState: 0
   _electronegativity: 2.6

@@ -14,16 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 63
   _elementName: Europium
+  _elementOtherName: 
   _elementSymbol: Eu
   _elementState: Solid
   _elementType: 8
-  _atomicMass: 151.96
+  _atomicMass: 151.9600067138672
   _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>7</sup>'
   _oxydationState: +3, +2
   _electronegativity: 0
   _atomicRadius: 233
-  _ionizationEnergy: 5.670
-  _electronAffinity: 
+  _ionizationEnergy: 5.67
+  _electronAffinity: 0
   _meltingPoint: 1095
   _boilingPoint: 1802
   _density: 5.24

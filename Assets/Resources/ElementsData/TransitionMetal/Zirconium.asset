@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 40
   _elementName: Zirconium
+  _elementOtherName: 
   _elementSymbol: Zr
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 91.22
+  _atomicMass: 91.22000122070312
   _electronConfig: '[Kr]5s<sup>2</sup>4d<sup>2</sup>'
   _oxydationState: +4
   _electronegativity: 1.33

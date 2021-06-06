@@ -18,7 +18,7 @@ MonoBehaviour:
   _elementSymbol: Ag
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 107.868
+  _atomicMass: 107.86799621582031
   _electronConfig: '[Kr]5s<sup>1</sup>4d<sup>10</sup>'
   _oxydationState: +1
   _electronegativity: 1.93

@@ -18,14 +18,14 @@ MonoBehaviour:
   _elementSymbol: Pd
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 106.4
-  _electronConfig: 
-  _oxydationState: 
-  _electronegativity: 0
-  _atomicRadius: 0
-  _ionizationEnergy: 0
-  _electronAffinity: 0
-  _meltingPoint: 0
-  _boilingPoint: 0
+  _atomicMass: 106.4000015258789
+  _electronConfig: '[Kr]4d<sup>10</sup>'
+  _oxydationState: +3, +2
+  _electronegativity: 2.2
+  _atomicRadius: 202
+  _ionizationEnergy: 8.337
+  _electronAffinity: 0.557
+  _meltingPoint: 1828.05
+  _boilingPoint: 3236
   _density: 12
   _yearDiscovered: 1803

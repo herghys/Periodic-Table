@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 10
   _elementName: Neon
+  _elementOtherName: 
   _elementSymbol: Ne
   _elementState: Gas
   _elementType: 1
-  _atomicMass: 20.18
+  _atomicMass: 20.18000030517578
   _electronConfig: '[He]2s<sup>2</sup>2p<sup>6</sup>'
   _oxydationState: 0
   _electronegativity: 0
@@ -28,4 +29,3 @@ MonoBehaviour:
   _boilingPoint: 27.07
   _density: 0.0008999
   _yearDiscovered: 1898
-  _prefabs: {fileID: 0}

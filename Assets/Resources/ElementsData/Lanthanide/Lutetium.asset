@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 71
   _elementName: Lutetium
+  _elementOtherName: 
   _elementSymbol: Lu
   _elementState: Solid
   _elementType: 8
-  _atomicMass: 174.967
+  _atomicMass: 174.9669952392578
   _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>1</sup>'
   _oxydationState: +3
   _electronegativity: 1.27

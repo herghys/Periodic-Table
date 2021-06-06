@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 35
   _elementName: Bromine
+  _elementOtherName: 
   _elementSymbol: Br
   _elementState: Liquid
   _elementType: 6
-  _atomicMass: 18.99840316
+  _atomicMass: 18.998403549194336
   _electronConfig: '[Ar]4s<sup>2</sup>3d<sup>10</sup>4p<>5</sup>'
   _oxydationState: +5, +1, -1
   _electronegativity: 2.96
@@ -28,4 +29,3 @@ MonoBehaviour:
   _boilingPoint: 331.95
   _density: 3.11
   _yearDiscovered: 1826
-  _prefabs: {fileID: 0}

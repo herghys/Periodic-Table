@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 22
   _elementName: Titanium
+  _elementOtherName: 
   _elementSymbol: Ti
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 47.87
+  _atomicMass: 47.869998931884766
   _electronConfig: '[Ar]4s<sup>2</sup>3d<sup>2</sup>'
   _oxydationState: +4, +3, +2
   _electronegativity: 1.54

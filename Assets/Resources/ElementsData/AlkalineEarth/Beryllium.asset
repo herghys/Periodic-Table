@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 4
   _elementName: Beryllium
+  _elementOtherName: 
   _elementSymbol: Be
   _elementState: Solid
   _elementType: 3
-  _atomicMass: 9.012183
+  _atomicMass: 9.01218318939209
   _electronConfig: '[He]2s<sup>2</sup>'
   _oxydationState: +2
   _electronegativity: 1.57

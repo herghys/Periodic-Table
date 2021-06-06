@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 11
   _elementName: Sodium
+  _elementOtherName: 
   _elementSymbol: Na
   _elementState: Solid
   _elementType: 2
-  _atomicMass: 22.9897693
+  _atomicMass: 22.989768981933594
   _electronConfig: '[Ne]3s<sup>1</sup>'
   _oxydationState: +1
   _electronegativity: 0.93

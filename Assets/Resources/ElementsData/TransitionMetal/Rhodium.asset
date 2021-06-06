@@ -18,7 +18,7 @@ MonoBehaviour:
   _elementSymbol: Rh
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 102.9055
+  _atomicMass: 102.90550231933594
   _electronConfig: '[Kr]5s<sup>1</sup>4d<sup>8</sup>'
   _oxydationState: +3
   _electronegativity: 2.28

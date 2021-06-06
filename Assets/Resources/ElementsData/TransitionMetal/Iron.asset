@@ -18,7 +18,7 @@ MonoBehaviour:
   _elementSymbol: Fe
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 55.84
+  _atomicMass: 55.84000015258789
   _electronConfig: '[Ar]4s<sup>2</sup>3d<sup>6</sup>'
   _oxydationState: +3, +2
   _electronegativity: 1.83

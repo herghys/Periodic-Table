@@ -18,14 +18,14 @@ MonoBehaviour:
   _elementSymbol: Hg
   _elementState: Liquid
   _elementType: 7
-  _atomicMass: 200.59
-  _electronConfig: 
-  _oxydationState: 
-  _electronegativity: 0
-  _atomicRadius: 0
-  _ionizationEnergy: 0
+  _atomicMass: 200.58999633789062
+  _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>10</sup>'
+  _oxydationState: +2, +1
+  _electronegativity: 2
+  _atomicRadius: 2019
+  _ionizationEnergy: 10.438
   _electronAffinity: 0
-  _meltingPoint: 0
-  _boilingPoint: 0
+  _meltingPoint: 234.32
+  _boilingPoint: 629.88
   _density: 13.5336
   _yearDiscovered: Ancient

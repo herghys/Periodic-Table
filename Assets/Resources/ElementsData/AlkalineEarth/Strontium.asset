@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 38
   _elementName: Strontium
+  _elementOtherName: 
   _elementSymbol: Sr
   _elementState: Solid
   _elementType: 3
-  _atomicMass: 87.6
+  _atomicMass: 87.5999984741211
   _electronConfig: '[Kr]5s<sup>2</sup>'
   _oxydationState: +2
   _electronegativity: 0.95

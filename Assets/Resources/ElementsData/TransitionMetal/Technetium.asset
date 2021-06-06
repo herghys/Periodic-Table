@@ -18,7 +18,7 @@ MonoBehaviour:
   _elementSymbol: Tc
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 96.90636
+  _atomicMass: 96.90635681152344
   _electronConfig: '[Kr]5s<sup>2</sup>4d<sup>5</sup>'
   _oxydationState: +7, +6, +4
   _electronegativity: 1.9

@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -29,11 +28,11 @@ public struct DescriptionUIElements
     [SerializeField] TextMeshProUGUI textAtomName;
     public TextMeshProUGUI AtomName { get { return textAtomName; } }
 
-    [SerializeField] TextMeshProUGUI textSymbol;
-    public TextMeshProUGUI AtomSymbol { get { return textSymbol; } }
+    /*[SerializeField] TextMeshProUGUI textSymbol;
+    public TextMeshProUGUI AtomSymbol { get { return textSymbol; } }*/
 
-    [SerializeField] TextMeshProUGUI textAtomNum;
-    public TextMeshProUGUI AtomNum { get { return textAtomNum; } }
+    /*[SerializeField] TextMeshProUGUI textAtomNum;
+    public TextMeshProUGUI AtomNum { get { return textAtomNum; } }*/
 
     [SerializeField] TextMeshProUGUI textAtomState;
     public TextMeshProUGUI AtomState { get { return textAtomState; } }
@@ -120,8 +119,8 @@ public class PeriodicUIManager : MonoBehaviour
         else
             description.AtomName.text = element.ElementName;
 
-        description.AtomSymbol.text = element.ElementSymbol;
-        description.AtomNum.text = element.ElementNum;
+        //description.AtomSymbol.text = element.ElementSymbol;
+        //description.AtomNum.text = element.ElementNum;
         description.AtomState.text = element.ElementState;
         description.ChemBlock.text = elementType;
         description.AtomMass.text = element.AtomicMass.ToString() + " u";
@@ -162,7 +161,7 @@ public class PeriodicUIManager : MonoBehaviour
     #region Methods
     private void UpdateDescUI(int i, bool state)
     {
-        group.alpha = i;
+        //group.alpha = i;
         group.interactable = state;
 
         cardGroup.alpha = i;

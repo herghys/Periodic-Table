@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 21
   _elementName: Scandium
+  _elementOtherName: 
   _elementSymbol: Sc
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 44.95591
+  _atomicMass: 44.955909729003906
   _electronConfig: '[Ar]4s<sup>2</sup>3d<sup>1</sup>'
   _oxydationState: +3
   _electronegativity: 1.36

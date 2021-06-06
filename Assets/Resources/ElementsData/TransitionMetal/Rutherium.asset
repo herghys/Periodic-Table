@@ -18,7 +18,7 @@ MonoBehaviour:
   _elementSymbol: Ru
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 101.1
+  _atomicMass: 101.0999984741211
   _electronConfig: '[Kr]5s<sup>1</sup>4d<sup>7</sup>'
   _oxydationState: +3
   _electronegativity: 2.2

@@ -18,7 +18,7 @@ MonoBehaviour:
   _elementSymbol: Au
   _elementState: Solid
   _elementType: 7
-  _atomicMass: 196.96657
+  _atomicMass: 196.96656799316406
   _electronConfig: '[Xe]6s<sup>1</sup>4f<sup>14</sup>5d<sup>10</sup>'
   _oxydationState: +3, +1
   _electronegativity: 2.54

@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 58
   _elementName: Cerium
+  _elementOtherName: 
   _elementSymbol: Ce
   _elementState: Solid
   _elementType: 8
-  _atomicMass: 140.12
+  _atomicMass: 140.1199951171875
   _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>1</sup>5d1'
   _oxydationState: +4, +3
   _electronegativity: 1.12
@@ -26,5 +27,5 @@ MonoBehaviour:
   _electronAffinity: 0.5
   _meltingPoint: 1071
   _boilingPoint: 3697
-  _density: 6.770
+  _density: 6.77
   _yearDiscovered: 1803

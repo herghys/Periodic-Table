@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 68
   _elementName: Erbium
+  _elementOtherName: 
   _elementSymbol: Er
   _elementState: Solid
   _elementType: 8
-  _atomicMass: 167.26
+  _atomicMass: 167.25999450683594
   _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>12</sup>'
   _oxydationState: +3
   _electronegativity: 1.24

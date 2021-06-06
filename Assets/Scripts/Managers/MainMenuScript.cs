@@ -1,11 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MainMenuScript : MonoBehaviour
 {
     [SerializeField] GameUtility gu;
+
     private void Awake()
     {
         if (gu.ElementData.Count > 1)
@@ -24,6 +23,7 @@ public class MainMenuScript : MonoBehaviour
 
     public void LoadScene(string sceneName)
     {
-        SceneManager.LoadScene(sceneName);
+        LoadingEvents.SceneToLoad = sceneName;
+        SceneManager.LoadScene("LoadingScene");
     }
 }

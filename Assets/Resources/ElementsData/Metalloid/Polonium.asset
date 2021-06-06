@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 84
   _elementName: Polonium
+  _elementOtherName: 
   _elementSymbol: Po
   _elementState: Solid
   _elementType: 4
-  _atomicMass: 208.98243
+  _atomicMass: 208.98243713378906
   _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>10</sup>6p<sup>4</sup>'
   _oxydationState: +4, +2
   _electronegativity: 2
@@ -28,4 +29,3 @@ MonoBehaviour:
   _boilingPoint: 1235
   _density: 9.32
   _yearDiscovered: 1898
-  _prefabs: {fileID: 0}

@@ -10,15 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef7cd000638259644b00980dccc41bc8, type: 3}
-  m_Name: Astaine
+  m_Name: Tennessine
   m_EditorClassIdentifier: 
-  _elementNum: 85
-  _elementName: Astaine
-  _elementSymbol: At
-  _elementState: Solid
+  _elementNum: 117
+  _elementName: Tennessine
+  _elementOtherName: 
+  _elementSymbol: Ts
+  _elementState: Solid (Expected)
   _elementType: 6
-  _atomicMass: 209.98715
-  _electronConfig: '[Xe]6s<sup>2</sup>4f<sup>14</sup>5d<sup>10</sup>6p<sup>5</sup>'
+  _atomicMass: 209.98715209960938
+  _electronConfig: '[Rn]7s<sup>2</sup>7p<sup>5</sup>5f<sup>14</sup>6d<sup>10</sup>'
   _oxydationState: 7, 5, 3, 1, -1
   _electronegativity: 2.2
   _atomicRadius: 202
@@ -28,4 +29,3 @@ MonoBehaviour:
   _boilingPoint: 0
   _density: 7
   _yearDiscovered: 1940
-  _prefabs: {fileID: 0}

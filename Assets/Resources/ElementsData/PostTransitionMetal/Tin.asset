@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _elementNum: 50
   _elementName: Tin
+  _elementOtherName: 
   _elementSymbol: Sn
   _elementState: Solid
   _elementType: 5
-  _atomicMass: 118.71
+  _atomicMass: 118.70999908447266
   _electronConfig: '[Kr]5s<sup>2</sup>4d<sup>10</sup>5p<sup>2</sup>'
   _oxydationState: +4, +2
   _electronegativity: 1.96
