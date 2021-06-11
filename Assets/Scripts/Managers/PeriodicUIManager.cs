@@ -28,12 +28,6 @@ public struct DescriptionUIElements
     [SerializeField] TextMeshProUGUI textAtomName;
     public TextMeshProUGUI AtomName { get { return textAtomName; } }
 
-    /*[SerializeField] TextMeshProUGUI textSymbol;
-    public TextMeshProUGUI AtomSymbol { get { return textSymbol; } }*/
-
-    /*[SerializeField] TextMeshProUGUI textAtomNum;
-    public TextMeshProUGUI AtomNum { get { return textAtomNum; } }*/
-
     [SerializeField] TextMeshProUGUI textAtomState;
     public TextMeshProUGUI AtomState { get { return textAtomState; } }
 
@@ -78,7 +72,6 @@ public class PeriodicUIManager : MonoBehaviour
 {
     #region Variables
     [Header("References")]
-    [SerializeField] GameUtility events;
     [SerializeField] CanvasGroup group, cardGroup, sideMenu;
 
     [Header("Description Card References")]
@@ -90,16 +83,16 @@ public class PeriodicUIManager : MonoBehaviour
     #region Unity Defaults
     private void OnEnable()
     {
-        events.UpdateElement += UpdateElement;
-        events.UpdateContextUI += UpdateDescUI;
-        events.UpdateSideMenuUI += UpdateSideMenu;
+        GameData.UpdateElement += UpdateElement;
+        GameData.UpdateContextUI += UpdateDescUI;
+        GameData.UpdateSideMenuUI += UpdateSideMenu;
     }
 
     private void OnDisable()
     {
-        events.UpdateElement -= UpdateElement;
-        events.UpdateContextUI -= UpdateDescUI;
-        events.UpdateSideMenuUI -= UpdateSideMenu;
+        GameData.UpdateElement -= UpdateElement;
+        GameData.UpdateContextUI -= UpdateDescUI;
+        GameData.UpdateSideMenuUI -= UpdateSideMenu;
     }
     #endregion
 
@@ -119,8 +112,6 @@ public class PeriodicUIManager : MonoBehaviour
         else
             description.AtomName.text = element.ElementName;
 
-        //description.AtomSymbol.text = element.ElementSymbol;
-        //description.AtomNum.text = element.ElementNum;
         description.AtomState.text = element.ElementState;
         description.ChemBlock.text = elementType;
         description.AtomMass.text = element.AtomicMass.ToString() + " u";

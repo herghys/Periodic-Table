@@ -4,7 +4,6 @@ using TMPro;
 [RequireComponent(typeof(CanvasGroup))]
 public class NonElementCard : MonoBehaviour
 {
-    [SerializeField] GameUtility gameUtility;
     [SerializeField] CanvasGroup canvasGroup;
     [SerializeField] ElementType mType;
     [SerializeField] TextMeshProUGUI childText;
@@ -14,12 +13,12 @@ public class NonElementCard : MonoBehaviour
 
     private void OnEnable()
     {
-        gameUtility.UpdateUnselectedType += SelectedType;
+        GameData.UpdateUnselectedType += SelectedType;
     }
 
     private void OnDisable()
     {
-        gameUtility.UpdateUnselectedType -= SelectedType;
+        GameData.UpdateUnselectedType -= SelectedType;
     }
     void Awake()
     {
@@ -38,6 +37,6 @@ public class NonElementCard : MonoBehaviour
 
     private void SelectedType()
     {
-        SetUI(gameUtility.IsSelectedElement[mType]);
+        SetUI(GameData.IsSelectedElement[mType]);
     }
 }

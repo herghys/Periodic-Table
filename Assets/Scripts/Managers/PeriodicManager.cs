@@ -3,33 +3,31 @@ using UnityEngine.SceneManagement;
 
 public class PeriodicManager : MonoBehaviour
 {
-    [SerializeField] GameUtility events;
-    [SerializeField] bool isSideMenuOpen;
-
+    private bool isSideMenuOpen;
     public void ButtonCloseCard()
     {
-        events.UpdateContextUI?.Invoke(false);
+        GameData.UpdateContextUI?.Invoke(false);
     }
 
     private void Start()
     {
-        events.UpdateSideMenuUI?.Invoke(false);
+        GameData.UpdateSideMenuUI?.Invoke(false);
     }
 
     public void SetSideMenu()
     {
         isSideMenuOpen = !isSideMenuOpen;
-        events.UpdateSideMenuUI?.Invoke(isSideMenuOpen);
+        GameData.UpdateSideMenuUI?.Invoke(isSideMenuOpen);
     }
 
     public void LoadScene(string sceneName)
     {
-        LoadingEvents.SceneToLoad = sceneName;
+        GameData.SceneToLoad = sceneName;
         SceneManager.LoadScene("LoadingScene");
     }
 
     private void OnDestroy()
     {
-        events.IsSelectedElement.Clear();
+        GameData.IsSelectedElement.Clear();
     }
 }

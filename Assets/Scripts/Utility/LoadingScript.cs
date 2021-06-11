@@ -16,7 +16,7 @@ public struct LoadingUI
 [RequireComponent(typeof(Slider))]
 public class LoadingScript : MonoBehaviour
 {
-    [SerializeField] GameUtility gu;
+    //[SerializeField] GameUtility gu;
     [SerializeField] LoadingUI loadingUI;
 
     private string _scene;
@@ -26,7 +26,7 @@ public class LoadingScript : MonoBehaviour
         loadingUI.LoadingSlider = GetComponent<Slider>();
         loadingUI.LoadingText = GetComponentInChildren<TextMeshProUGUI>();
 
-        _scene = LoadingEvents.SceneToLoad;
+        _scene = GameData.SceneToLoad;
         loadingUI.LoadingSlider.value = 0;
     }
 

@@ -23,8 +23,6 @@ public class ElementCard : MonoBehaviour
     private string fallbackAtomName = "Hydrogen";
     private Element element;
 
-    [SerializeField] GameUtility gameUtility;
-
     string hexColor, elementType;
     Color newCol;
     Color baseWhite = new Color32(255, 255, 255, 255);
@@ -35,12 +33,12 @@ public class ElementCard : MonoBehaviour
 
     private void OnEnable()
     {
-        gameUtility.UpdateUnselectedType += SelectedType;
+        GameData.UpdateUnselectedType += SelectedType;
     }
 
     private void OnDisable()
     {
-        gameUtility.UpdateUnselectedType -= SelectedType;
+        GameData.UpdateUnselectedType -= SelectedType;
     }
 
     private void Awake()
@@ -48,12 +46,11 @@ public class ElementCard : MonoBehaviour
         mButton = GetComponent<Button>();
         mImage = GetComponent<Image>();
 
-        //if (string.IsNullOrEmpty(atomName)) atomName = fallbackAtomName;
         atomName = gameObject.name;
-        if (!gameUtility.ElementData.ContainsKey(atomName))
+        if (!GameData.ElementData.ContainsKey(atomName))
             atomName = fallbackAtomName;
 
-        element = gameUtility.ElementData[atomName];
+        element = GameData.ElementData[atomName];
 
         canvasGroup = GetComponent<CanvasGroup>();
     }
@@ -62,7 +59,7 @@ public class ElementCard : MonoBehaviour
     {
         mType = element.GetElementType;
 
-        SetUI(gameUtility.ElementData[atomName]);
+        SetUI(GameData.ElementData[atomName]);
         
         ChangeColor(mType);
 
@@ -159,15 +156,15 @@ public class ElementCard : MonoBehaviour
     }
     private void OnclickEvent()
     {
-        gameUtility.UpdateElement?.Invoke(element, newCol, elementType);
-        gameUtility.UpdateContextUI?.Invoke(true);
+        GameData.UpdateElement?.Invoke(element, newCol, elementType);
+        GameData.UpdateContextUI?.Invoke(true);
     }
     #endregion
 
     #region Callbacks
     private void SelectedType()
     {
-        SetUI(gameUtility.IsSelectedElement[mType]);
+        SetUI(GameData.IsSelectedElement[mType]);
     }
     #endregion
 }
