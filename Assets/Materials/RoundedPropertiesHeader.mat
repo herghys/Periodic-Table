@@ -82,5 +82,5 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _WidthHeightRadius: {r: 547.96466, g: 175.15982, b: 40, a: 0}
+    - _WidthHeightRadius: {r: 570.2783, g: 182.1954, b: 40, a: 0}
   m_BuildTextureStacks: []

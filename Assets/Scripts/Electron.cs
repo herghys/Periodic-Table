@@ -26,7 +26,6 @@ public class Electron : MonoBehaviour
                                                                             Random.Range(transform.position.z - 1, transform.position.z + 1));
     }
 
-    // Update is called once per frame
     void Update()
     {
         /*transform.RotateAround(baseParent.transform.position, new Vector3(Random.Range(transform.position.x-1, transform.position.x+1), 
